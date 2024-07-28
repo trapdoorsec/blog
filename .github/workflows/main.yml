@@ -21,4 +21,4 @@ jobs:
 
       - name: Run zola build
         run: zola build
-        working-directory: burgersbytes.net/public
+        working-directory: ../burgersbytes.net/public
