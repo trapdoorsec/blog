@@ -5,5 +5,5 @@ weight = 1
 
 [extra]
 local_image = "img/rinzler.png"
-link_to = "https://github.com/seska451/rinzler"
 +++
+More details coming soon
