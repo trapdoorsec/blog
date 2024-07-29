@@ -169,7 +169,119 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
         <section class="body">
             
             
-            
+            <p>🚧 <em>Coming soon, check back here for updates</em> 🚧</p>
+<pre class="z-code"><code><span class="z-text z-plain">         _             __         
+</span><span class="z-text z-plain">   _____(_)___  ____  / /__  _____
+</span><span class="z-text z-plain">  / ___/ / __ \/_  / / / _ \/ ___/
+</span><span class="z-text z-plain"> / /  / / / / / / /_/ /  __/ /    
+</span><span class="z-text z-plain">/_/  /_/_/ /_/ /___/_/\___/_/     
+</span><span class="z-text z-plain">                                  
+</span><span class="z-text z-plain">🙌       a fast webcrawler        🙌
+</span><span class="z-text z-plain">🙌       from seska with ♡♡♡      🙌
+</span></code></pre>
+<h1 id="features"><a class="header-anchor no-hover-padding" href="#features" aria-label="Anchor link for: features"><span class="link-icon" aria-hidden="true"></span></a>
+Features</h1>
+<ul>
+<li>Webcrawler</li>
+<li>Vulnerabilty Scanner</li>
+<li>Force Browser</li>
+<li>Easy to use</li>
+<li>Can be configured with environment variables</li>
+</ul>
+<h1 id="rinzler-in-action"><a class="header-anchor no-hover-padding" href="#rinzler-in-action" aria-label="Anchor link for: rinzler-in-action"><span class="link-icon" aria-hidden="true"></span></a>
+Rinzler in action</h1>
+<h2 id="multi-threaded-forced-browsing"><a class="header-anchor no-hover-padding" href="#multi-threaded-forced-browsing" aria-label="Anchor link for: multi-threaded-forced-browsing"><span class="link-icon" aria-hidden="true"></span></a>
+multi-threaded forced browsing</h2>
+<p><a href="https://asciinema.org/a/v4TnGvjh3Jp8qgr7nUR78hUZl"><img src="https://asciinema.org/a/v4TnGvjh3Jp8qgr7nUR78hUZl.svg" alt="asciicast" /></a></p>
+<h1 id="usage-by-example"><a class="header-anchor no-hover-padding" href="#usage-by-example" aria-label="Anchor link for: usage-by-example"><span class="link-icon" aria-hidden="true"></span></a>
+Usage by example</h1>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-comment z-line z-number-sign z-shell"><span class="z-punctuation z-definition z-comment z-begin z-shell">#</span></span><span class="z-comment z-line z-number-sign z-shell"># get help</span><span class="z-comment z-line z-number-sign z-shell">
+</span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-meta z-group z-expansion z-command z-backticks z-shell"><span class="z-punctuation z-section z-group z-begin z-shell">`</span><span class="z-punctuation z-section z-group z-end z-shell">`</span></span><span class="z-meta z-group z-expansion z-command z-backticks z-shell"><span class="z-punctuation z-section z-group z-begin z-shell">`</span><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">bash</span></span>
+</span></span></span><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-arguments z-shell"><span class="z-meta z-group z-expansion z-command z-backticks z-shell"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>help</span></span>
+</span></span></span></code></pre>
+<h2 id="crawling-a-single-host"><a class="header-anchor no-hover-padding" href="#crawling-a-single-host" aria-label="Anchor link for: crawling-a-single-host"><span class="link-icon" aria-hidden="true"></span></a>
+crawling a single host</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"> https://crawler-test.com </span>
+</span></code></pre>
+<h2 id="crawling-multiple-hosts"><a class="header-anchor no-hover-padding" href="#crawling-multiple-hosts" aria-label="Anchor link for: crawling-multiple-hosts"><span class="link-icon" aria-hidden="true"></span></a>
+crawling multiple hosts</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://seska.io </span>
+</span></code></pre>
+<h2 id="rate-limiting-requests-50ms-per-request"><a class="header-anchor no-hover-padding" href="#rate-limiting-requests-50ms-per-request" aria-label="Anchor link for: rate-limiting-requests-50ms-per-request"><span class="link-icon" aria-hidden="true"></span></a>
+rate limiting requests (50ms per request)</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>rate-limit</span> 50</span>
+</span></code></pre>
+<h2 id="run-an-unscoped-crawl"><a class="header-anchor no-hover-padding" href="#run-an-unscoped-crawl" aria-label="Anchor link for: run-an-unscoped-crawl"><span class="link-icon" aria-hidden="true"></span></a>
+run an unscoped crawl</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>scoped</span><span class="z-keyword z-operator z-assignment z-option z-shell">=</span>false </span>
+</span></code></pre>
+<h2 id="customize-the-ua-header"><a class="header-anchor no-hover-padding" href="#customize-the-ua-header" aria-label="Anchor link for: customize-the-ua-header"><span class="link-icon" aria-hidden="true"></span></a>
+customize the UA header</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>user-agent</span><span class="z-keyword z-operator z-assignment z-option z-shell">=</span><span class="z-string z-quoted z-double z-shell"><span class="z-punctuation z-definition z-string z-begin z-shell">&quot;</span>Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36<span class="z-punctuation z-definition z-string z-end z-shell">&quot;</span></span> </span>
+</span></code></pre>
+<h2 id="suppress-the-banner-on-start"><a class="header-anchor no-hover-padding" href="#suppress-the-banner-on-start" aria-label="Anchor link for: suppress-the-banner-on-start"><span class="link-icon" aria-hidden="true"></span></a>
+suppress the banner on start</h2>
+<pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>quiet</span> </span>
+</span></code></pre>
+<h1 id="all-the-options"><a class="header-anchor no-hover-padding" href="#all-the-options" aria-label="Anchor link for: all-the-options"><span class="link-icon" aria-hidden="true"></span></a>
+All the options</h1>
+<p>USAGE:
+rnz [OPTIONS] <HOST URL></p>
+<p>ARGS:
+<HOST URL>    The host URL to scan</p>
+<p>OPTIONS:
+-D, --deep
+Indicates use of a deep (recursive) scan. This is done by default, unless fuzzing or
+forced browsing is used.</p>
+<pre class="z-code"><code><span class="z-text z-plain">-e, --status-exclude &lt;status-exclude&gt;...
+</span><span class="z-text z-plain">        Set the status codes you&#39;re not interested in.
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-h, --host &lt;HOST URL&gt;
+</span><span class="z-text z-plain">        Set the initial URL to start crawling. Can be set multiple times to crawl several sites
+</span><span class="z-text z-plain">        at once. [env: RINZLER_HOSTS=]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">    --help
+</span><span class="z-text z-plain">        Print help information
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-i, --status-include &lt;status-include&gt;...
+</span><span class="z-text z-plain">        Set the status codes you&#39;re interested in.
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-q, --quiet &lt;quiet&gt;
+</span><span class="z-text z-plain">        When set, this flag suppresses extraneous output like the version banner. [default:
+</span><span class="z-text z-plain">        false]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-r, --rate-limit &lt;rate-limit&gt;
+</span><span class="z-text z-plain">        Set the number of milliseconds to wait between each request. [env: RINZLER_RATE_LIMIT=]
+</span><span class="z-text z-plain">        [default: 0]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-s, --scoped &lt;scoped&gt;
+</span><span class="z-text z-plain">        Prevents rinzler from searching beyond the original domains specified. Defaults to true.
+</span><span class="z-text z-plain">        [default: true]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-S, --shallow
+</span><span class="z-text z-plain">        Indicates use of a shallow (non-recursive) scan. By default a deep crawl (recursive) is
+</span><span class="z-text z-plain">        performed, unless fuzzing or forced browsing is used.
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-t, --threads &lt;threads&gt;
+</span><span class="z-text z-plain">        Set the maximum number of threads to build the thread pool that rinzler uses when
+</span><span class="z-text z-plain">        processing targets. [env: RINZLER_THREADS=] [default: 50]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-u, --user-agent &lt;user-agent&gt;
+</span><span class="z-text z-plain">        Set the user-agent header. Defaults to &#39;0.0.2-alpha&#39; [env: RINZLER_UA=] [default:
+</span><span class="z-text z-plain">        &quot;rinzler v0.0.2-alpha&quot;]
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-v
+</span><span class="z-text z-plain">        Sets the level of output verbosity. Set multiple times
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-V, --version
+</span><span class="z-text z-plain">        Print version information
+</span><span class="z-text z-plain">
+</span><span class="z-text z-plain">-w, --wordlist &lt;wordlist&gt;
+</span><span class="z-text z-plain">        Supply a wordlist to perform forced browsing [env: RINZLER_WORDLIST=]
+</span></code></pre>
+<pre class="z-code"><code><span class="z-text z-plain">
+</span></code></pre>
+
         </section>
 
         
@@ -215,6 +327,105 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
     <div id="button-container">
         
         
+            <div id="toc-floating-container">
+                <input type="checkbox" id="toc-toggle" class="toggle"/>
+                <label for="toc-toggle" class="overlay"></label>
+                <label for="toc-toggle" id="toc-button" class="button" title="Toggle Table of Contents">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M414.82-193.094q-18.044 0-30.497-12.32-12.453-12.319-12.453-30.036t12.453-30.086q12.453-12.37 30.497-12.37h392.767q17.237 0 29.927 12.487 12.69 12.486 12.69 30.203 0 17.716-12.69 29.919t-29.927 12.203H414.82Zm0-244.833q-18.044 0-30.497-12.487Q371.87-462.9 371.87-480.45t12.453-29.92q12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.511 12.69 12.512 12.69 29.845 0 17.716-12.69 30.086-12.69 12.37-29.927 12.37H414.82Zm0-245.167q-18.044 0-30.497-12.32t-12.453-30.037q0-17.716 12.453-30.086 12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.486 12.69 12.487 12.69 30.203 0 17.717-12.69 29.92-12.69 12.203-29.927 12.203H414.82ZM189.379-156.681q-32.652 0-55.878-22.829t-23.226-55.731q0-32.549 23.15-55.647 23.151-23.097 55.95-23.097 32.799 0 55.313 23.484 22.515 23.484 22.515 56.246 0 32.212-22.861 54.893-22.861 22.681-54.963 22.681Zm0-245.167q-32.652 0-55.878-23.134-23.226-23.135-23.226-55.623 0-32.487 23.467-55.517t56.12-23.03q32.102 0 54.721 23.288 22.62 23.288 22.62 55.775 0 32.488-22.861 55.364-22.861 22.877-54.963 22.877Zm-.82-244.833q-32.224 0-55.254-23.288-23.03-23.289-23.03-55.623 0-32.333 23.271-55.364 23.272-23.03 55.495-23.03 32.224 0 55.193 23.288 22.969 23.289 22.969 55.622 0 32.334-23.21 55.364-23.21 23.031-55.434 23.031Z"/></svg>
+                </label>
+                <div class="toc-content">
+                    
+
+<div class="toc-container">
+    
+
+    <ul>
+        
+            
+            
+                <li><a href="https://reverse.codes/projects/rinzler/#features">Features</a>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://reverse.codes/projects/rinzler/#rinzler-in-action">Rinzler in action</a>
+                    
+                        <ul>
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#multi-threaded-forced-browsing">multi-threaded forced browsing</a>
+                                        
+                                    </li>
+                                
+                            
+                        </ul>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://reverse.codes/projects/rinzler/#usage-by-example">Usage by example</a>
+                    
+                        <ul>
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#crawling-a-single-host">crawling a single host</a>
+                                        
+                                    </li>
+                                
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#crawling-multiple-hosts">crawling multiple hosts</a>
+                                        
+                                    </li>
+                                
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#rate-limiting-requests-50ms-per-request">rate limiting requests (50ms per request)</a>
+                                        
+                                    </li>
+                                
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#run-an-unscoped-crawl">run an unscoped crawl</a>
+                                        
+                                    </li>
+                                
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#customize-the-ua-header">customize the UA header</a>
+                                        
+                                    </li>
+                                
+                            
+                                
+                                    <li><a href="https://reverse.codes/projects/rinzler/#suppress-the-banner-on-start">suppress the banner on start</a>
+                                        
+                                    </li>
+                                
+                            
+                        </ul>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://reverse.codes/projects/rinzler/#all-the-options">All the options</a>
+                    
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+                </div>
+            </div>
+        
 
         
         
@@ -256,7 +467,7 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
                 •
                     <a rel=""  href="https:&#x2F;&#x2F;github.com&#x2F;seska451&#x2F;blog">
                         Site source
-                    </a><a href='https://ko-fi.com/R6R55A5NH' target='_blank'><img height='18' style='border:0px;height:18px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+                    </a><!--                <a href='https://ko-fi.com/R6R55A5NH' target='_blank'><img height='18' style='border:0px;height:18px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>-->
             </small>
         </div>
     </section>

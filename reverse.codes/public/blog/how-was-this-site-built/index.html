@@ -10,7 +10,7 @@
     <meta name="base" content="https://reverse.codes">
 
     
-    <title>{REVEЯSE CODES} • Tags</title>
+    <title>{REVEЯSE CODES} • How was this site built</title>
 
     
     
@@ -54,14 +54,14 @@
         <meta name="robots" content="index, nofollow" />
     
 
-    <meta property="og:title" content="{REVEЯSE CODES}" />
+    <meta property="og:title" content="How was this site built" />
     <meta property="og:type" content="article" />
 
     
 
     <meta property="og:locale" content="en_GB" />
 
-    <meta property="og:url" content="https:&#x2F;&#x2F;reverse.codes&#x2F;tags&#x2F;" /><meta property="og:site_name" content="{REVEЯSE CODES}"><meta http-equiv="Content-Security-Policy"
+    <meta property="og:url" content="https:&#x2F;&#x2F;reverse.codes&#x2F;blog&#x2F;how-was-this-site-built&#x2F;" /><meta property="og:site_name" content="{REVEЯSE CODES}"><meta http-equiv="Content-Security-Policy"
 content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#x27; https:&#x2F;&#x2F;* data:;media-src &#x27;self&#x27;;style-src &#x27;self&#x27;;frame-src player.vimeo.com https:&#x2F;&#x2F;www.youtube-nocookie.com;connect-src 'self';script-src 'self' 'self'">
 
         <noscript><link rel="stylesheet" href="https://reverse.codes/no_js.css"/></noscript>
@@ -148,34 +148,103 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
 
         
         
-<h1 class="title-container section-title bottom-divider">
-    All tags
-</h1>
 
 
 
 
-<div id="tag-cloud" class="">
-    <ul class="tags"><li class="tags-item">
-                    <a href="https://reverse.codes/tags/about/">
-                        about </a>
-                    <span> – </span>2 posts
-            </li><li class="tags-item">
-                    <a href="https://reverse.codes/tags/cybersecurity/">
-                        cybersecurity </a>
-                    <span> – </span>1 post
-            </li><li class="tags-item">
-                    <a href="https://reverse.codes/tags/legislation/">
-                        legislation </a>
-                    <span> – </span>1 post
-            </li><li class="tags-item">
-                    <a href="https://reverse.codes/tags/ransomware/">
-                        ransomware </a>
-                    <span> – </span>1 post
-            </li></ul>
-</div>
+<main>
+    <article>
+        <h1 class="article-title">
+            How was this site built
+        </h1>
+
+        <ul class="meta">
+                <li class="draft-label">DRAFT</li>
+            <li>29th Jun 2024</li>&nbsp;•&nbsp;<li title="288 words">2 min read</li>&nbsp;•&nbsp;<li>Tags:&nbsp;</li><li><a href=https://reverse.codes/tags/about/>about</a></li>
+        </ul>
+
+        
+
+        
+        
+
+        <section class="body">
+            
+            
+            <p>These days as a content creator there are so many options for having a website presence.
+I wanted to create one for as little as possible, to show others that one only needs time and motivation to create a blog of their
+own.</p>
+<h1 id="zola-static-site-generator">Zola - Static Site Generator</h1>
+<p>This blog was created using the <a href="https://www.getzola.org">zola</a> static site generator. It makes the creation of blog content as simple as some mark
+down files in a folder. You might need to learn a little bit of command line usage to use it, but it is otherwise very
+simple to use. Give it a shot!</p>
+<p>For the theme, I am using the simple yet appealing <a href="https://www.getzola.org/themes/tabi/">Tabi theme</a>, and I thank its creator for making such a clean theme.</p>
+<p>For the particularly curious, it happens to be written in rust, which appealed to me because it is a programming language
+I am currently learning. On that, syntax highlighting is supported too... check it out!</p>
+<pre data-lang="rust" class="language-rust z-code"><code class="language-rust" data-lang="rust"><span class="z-source z-rust"><span class="z-meta z-function z-rust"><span class="z-meta z-function z-rust"><span class="z-storage z-type z-function z-rust">fn</span> </span><span class="z-entity z-name z-function z-rust">rust_is_fun</span></span><span class="z-meta z-function z-rust"><span class="z-meta z-function z-parameters z-rust"><span class="z-punctuation z-section z-parameters z-begin z-rust">(</span></span><span class="z-meta z-function z-rust"><span class="z-meta z-function z-parameters z-rust"><span class="z-punctuation z-section z-parameters z-end z-rust">)</span></span></span></span><span class="z-meta z-function z-rust"> <span class="z-meta z-function z-return-type z-rust"><span class="z-punctuation z-separator z-rust">-&gt;</span> <span class="z-meta z-generic z-rust"><span class="z-support z-type z-rust">Result</span><span class="z-punctuation z-definition z-generic z-begin z-rust">&lt;</span><span class="z-punctuation z-section z-group z-begin z-rust">(</span><span class="z-keyword z-operator z-rust">&amp;</span><span class="z-storage z-type z-rust">str</span><span class="z-punctuation z-section z-group z-end z-rust">)</span><span class="z-punctuation z-definition z-generic z-end z-rust">&gt;</span></span></span> </span><span class="z-meta z-function z-rust"><span class="z-meta z-block z-rust"><span class="z-punctuation z-section z-block z-begin z-rust">{</span>
+</span></span></span><span class="z-source z-rust"><span class="z-meta z-function z-rust"><span class="z-meta z-block z-rust">    <span class="z-storage z-type z-rust">let</span> rust <span class="z-keyword z-operator z-assignment z-rust">=</span> <span class="z-string z-quoted z-double z-rust"><span class="z-punctuation z-definition z-string z-begin z-rust">&quot;</span>awesome<span class="z-punctuation z-definition z-string z-end z-rust">&quot;</span></span><span class="z-punctuation z-terminator z-rust">;</span>
+</span></span></span><span class="z-source z-rust"><span class="z-meta z-function z-rust"><span class="z-meta z-block z-rust">    <span class="z-support z-type z-rust">Ok</span><span class="z-meta z-group z-rust"><span class="z-punctuation z-section z-group z-begin z-rust">(</span>rust</span><span class="z-meta z-group z-rust"><span class="z-punctuation z-section z-group z-end z-rust">)</span></span>
+</span></span></span><span class="z-source z-rust"><span class="z-meta z-function z-rust"><span class="z-meta z-block z-rust"></span><span class="z-meta z-block z-rust"><span class="z-punctuation z-section z-block z-end z-rust">}</span></span></span>
+</span></code></pre>
+<h1 id="hosting">Hosting</h1>
+<p>I am hosting this on an <a href="https://www.digitalocean.com/pricing/app-platform">'App Platform' instance via Digital Ocean</a>, which is perfect for static site content because you
+can read from github or gitlab, and host up to three sites for free, with custom website domain name. That said there are
+a bunch of other hosting providers that can host a static site for you, like github pages, for example.</p>
+<h1 id="custom-domain-names-dns-management">Custom Domain Names &amp; DNS Management</h1>
+<p>This is an important piece for a website, and you have many options here too, but for this I went with namecheap for its
+low cost and ease of use.</p>
+<p>Hope this helps answer the question for those curious.</p>
+
+        </section>
+
+        
+        
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+
+        
+        
+
+        
+        
+
+    </article>
+</main>
 
 
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://reverse.codes/js/copyCodeToClipboard.min.js"></script>
     </div>
     <footer>
     <section>
