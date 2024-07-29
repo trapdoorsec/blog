@@ -38,3 +38,5 @@ highlight_theme = "css"
 # Put all your custom variables here
 stylesheets = ["/css/fontawesome.css", "/css/brands.css", "/css/solid.css"]
 favicon = "/img/favicon.png"
+show_remote_source = true
+remote_repository_url = "https://github.com/seska451/blog"
