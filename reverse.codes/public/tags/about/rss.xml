@@ -7,38 +7,7 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://reverse.codes/tags/about/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
-      <item>
-          <title>How was this site built</title>
-          <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
-          <author>J. Burger</author>
-          <link>https://reverse.codes/blog/how-was-this-site-built/</link>
-          <guid>https://reverse.codes/blog/how-was-this-site-built/</guid>
-          <description xml:base="https://reverse.codes/blog/how-was-this-site-built/">&lt;p&gt;These days as a content creator there are so many options for having a website presence.
-I wanted to create one for as little as possible, to show others that one only needs time and motivation to create a blog of their
-own.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;zola-static-site-generator&quot;&gt;Zola - Static Site Generator&lt;&#x2F;h1&gt;
-&lt;p&gt;This blog was created using the &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;zola&lt;&#x2F;a&gt; static site generator. It makes the creation of blog content as simple as some mark
-down files in a folder. You might need to learn a little bit of command line usage to use it, but it is otherwise very
-simple to use. Give it a shot!&lt;&#x2F;p&gt;
-&lt;p&gt;For the theme, I am using the simple yet appealing &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;themes&#x2F;tabi&#x2F;&quot;&gt;Tabi theme&lt;&#x2F;a&gt;, and I thank its creator for making such a clean theme.&lt;&#x2F;p&gt;
-&lt;p&gt;For the particularly curious, it happens to be written in rust, which appealed to me because it is a programming language
-I am currently learning. On that, syntax highlighting is supported too... check it out!&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;rust&quot; class=&quot;language-rust z-code&quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-storage z-type z-function z-rust&quot;&gt;fn&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-function z-rust&quot;&gt;rust_is_fun&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-parameters z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-parameters z-begin z-rust&quot;&gt;(&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-parameters z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-parameters z-end z-rust&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt; &lt;span class=&quot;z-meta z-function z-return-type z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-separator z-rust&quot;&gt;-&amp;gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-generic z-rust&quot;&gt;&lt;span class=&quot;z-support z-type z-rust&quot;&gt;Result&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-generic z-begin z-rust&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-rust&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-rust&quot;&gt;&amp;amp;&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage z-type z-rust&quot;&gt;str&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-rust&quot;&gt;)&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-generic z-end z-rust&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-block z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-rust&quot;&gt;{&lt;&#x2F;span&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-block z-rust&quot;&gt;    &lt;span class=&quot;z-storage z-type z-rust&quot;&gt;let&lt;&#x2F;span&gt; rust &lt;span class=&quot;z-keyword z-operator z-assignment z-rust&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-rust&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;awesome&lt;span class=&quot;z-punctuation z-definition z-string z-end z-rust&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rust&quot;&gt;;&lt;&#x2F;span&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-block z-rust&quot;&gt;    &lt;span class=&quot;z-support z-type z-rust&quot;&gt;Ok&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-rust&quot;&gt;(&lt;&#x2F;span&gt;rust&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-rust&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-meta z-function z-rust&quot;&gt;&lt;span class=&quot;z-meta z-block z-rust&quot;&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-block z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-end z-rust&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;hosting&quot;&gt;Hosting&lt;&#x2F;h1&gt;
-&lt;p&gt;I am hosting this on an &lt;a href=&quot;https:&#x2F;&#x2F;www.digitalocean.com&#x2F;pricing&#x2F;app-platform&quot;&gt;&#x27;App Platform&#x27; instance via Digital Ocean&lt;&#x2F;a&gt;, which is perfect for static site content because you
-can read from github or gitlab, and host up to three sites for free, with custom website domain name. That said there are
-a bunch of other hosting providers that can host a static site for you, like github pages, for example.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;custom-domain-names-dns-management&quot;&gt;Custom Domain Names &amp;amp; DNS Management&lt;&#x2F;h1&gt;
-&lt;p&gt;This is an important piece for a website, and you have many options here too, but for this I went with namecheap for its
-low cost and ease of use.&lt;&#x2F;p&gt;
-&lt;p&gt;Hope this helps answer the question for those curious.&lt;&#x2F;p&gt;
-</description>
-      </item>
+      <lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
       <item>
           <title>About the Author</title>
           <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
@@ -56,7 +25,6 @@ or ideas I&#x27;ve come across.&lt;&#x2F;p&gt;
 as well read it here anyway.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-mastodon&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Mastodon&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&quot;&gt;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-x-twitter&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Twitter&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;x0_seska_0x&quot;&gt;https:&#x2F;&#x2F;x.com&#x2F;x0_seska_0x&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;LinkedIn&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jamesburger79&quot;&gt;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jamesburger79&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-cube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Hackthebox&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&quot;&gt;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-mug-hot&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;ko-fi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
