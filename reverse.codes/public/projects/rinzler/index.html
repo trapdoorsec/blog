@@ -223,64 +223,6 @@ customize the UA header</h2>
 suppress the banner on start</h2>
 <pre data-lang="bash" class="language-bash z-code"><code class="language-bash" data-lang="bash"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">rnz</span></span><span class="z-meta z-function-call z-arguments z-shell"><span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>host</span> https://crawler-test.com<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> --</span>quiet</span> </span>
 </span></code></pre>
-<h1 id="all-the-options"><a class="header-anchor no-hover-padding" href="#all-the-options" aria-label="Anchor link for: all-the-options"><span class="link-icon" aria-hidden="true"></span></a>
-All the options</h1>
-<p>USAGE:
-rnz [OPTIONS] <HOST URL></p>
-<p>ARGS:
-<HOST URL>    The host URL to scan</p>
-<p>OPTIONS:
--D, --deep
-Indicates use of a deep (recursive) scan. This is done by default, unless fuzzing or
-forced browsing is used.</p>
-<pre class="z-code"><code><span class="z-text z-plain">-e, --status-exclude &lt;status-exclude&gt;...
-</span><span class="z-text z-plain">        Set the status codes you&#39;re not interested in.
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-h, --host &lt;HOST URL&gt;
-</span><span class="z-text z-plain">        Set the initial URL to start crawling. Can be set multiple times to crawl several sites
-</span><span class="z-text z-plain">        at once. [env: RINZLER_HOSTS=]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">    --help
-</span><span class="z-text z-plain">        Print help information
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-i, --status-include &lt;status-include&gt;...
-</span><span class="z-text z-plain">        Set the status codes you&#39;re interested in.
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-q, --quiet &lt;quiet&gt;
-</span><span class="z-text z-plain">        When set, this flag suppresses extraneous output like the version banner. [default:
-</span><span class="z-text z-plain">        false]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-r, --rate-limit &lt;rate-limit&gt;
-</span><span class="z-text z-plain">        Set the number of milliseconds to wait between each request. [env: RINZLER_RATE_LIMIT=]
-</span><span class="z-text z-plain">        [default: 0]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-s, --scoped &lt;scoped&gt;
-</span><span class="z-text z-plain">        Prevents rinzler from searching beyond the original domains specified. Defaults to true.
-</span><span class="z-text z-plain">        [default: true]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-S, --shallow
-</span><span class="z-text z-plain">        Indicates use of a shallow (non-recursive) scan. By default a deep crawl (recursive) is
-</span><span class="z-text z-plain">        performed, unless fuzzing or forced browsing is used.
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-t, --threads &lt;threads&gt;
-</span><span class="z-text z-plain">        Set the maximum number of threads to build the thread pool that rinzler uses when
-</span><span class="z-text z-plain">        processing targets. [env: RINZLER_THREADS=] [default: 50]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-u, --user-agent &lt;user-agent&gt;
-</span><span class="z-text z-plain">        Set the user-agent header. Defaults to &#39;0.0.2-alpha&#39; [env: RINZLER_UA=] [default:
-</span><span class="z-text z-plain">        &quot;rinzler v0.0.2-alpha&quot;]
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-v
-</span><span class="z-text z-plain">        Sets the level of output verbosity. Set multiple times
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-V, --version
-</span><span class="z-text z-plain">        Print version information
-</span><span class="z-text z-plain">
-</span><span class="z-text z-plain">-w, --wordlist &lt;wordlist&gt;
-</span><span class="z-text z-plain">        Supply a wordlist to perform forced browsing [env: RINZLER_WORDLIST=]
-</span></code></pre>
-<pre class="z-code"><code><span class="z-text z-plain">
-</span></code></pre>
 
         </section>
 
@@ -408,13 +350,6 @@ forced browsing is used.</p>
                                 
                             
                         </ul>
-                    
-                </li>
-            
-        
-            
-            
-                <li><a href="https://reverse.codes/projects/rinzler/#all-the-options">All the options</a>
                     
                 </li>
             
