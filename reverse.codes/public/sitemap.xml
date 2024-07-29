@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://reverse.codes/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://reverse.codes/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/blog/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/blog/how-was-this-site-built/</loc>
+        <lastmod>2024-06-29</lastmod>
+    </url>
+    <url>
+        <loc>https://reverse.codes/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/tags/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/tags/about/</loc>
+    </url>
+</urlset>
