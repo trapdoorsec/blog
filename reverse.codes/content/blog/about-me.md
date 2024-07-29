@@ -24,8 +24,8 @@ as well read it here anyway.
 | <i class="fa-brands fa-mastodon"></i>  | Mastodon    | [https://infosec.exchange/@jiim](https://infosec.exchange/@jiim)                       |
 | <i class="fa-brands fa-linkedin"></i>  | LinkedIn    | [https://www.linkedin.com/in/jamesburger79](https://www.linkedin.com/in/jamesburger79) |
 | <i class="fa-solid fa-cube"></i>       | Hackthebox  | [https://app.hackthebox.com/profile/68877](https://app.hackthebox.com/profile/68877)   |
-| <i class="fa-solid fa-mug-hot"></i>    | ko-fi       | [https://ko-fi.com/seska](https://ko-fi.com/seska)                                                            |
-| <i class="fa-brands fa-x-twitter"></i> | Twitter / X | [https://x.com/x0_seska_0x](https://x.com/x0_seska_0x)                                 |
+| <i class="fa-solid fa-mug-hot"></i>    | ko-fi       | [https://ko-fi.com/seska](https://ko-fi.com/seska)                                     |                       |
+
 :coffee: If you do happen to find something worth supporting here, I'd really appreciate it! The best way to do this is to
 [donate a coffee](https://ko-fi.com/seska) to let me know to keep at it.
 
