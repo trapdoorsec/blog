@@ -13,8 +13,8 @@ I started my career in IT as a junior software programmer way back in the olden 
 development, then application security roles, and I now find myself in cybersecurity governance, risk management & compliance, 
 and leadership positions.
 
-I've seen a lot of things change and a lot of things stay the same over the years. I mainly write about the technologies I've learned
-, or ideas I've come across. 
+I've seen a lot of things change and a lot of things stay the same over the years. I mainly write about the technologies I've learned,
+or ideas I've come across. 
 
 :detective: In case you're curious, I'll save you some OSINT legwork. LinkedIn leaked most of it back in 2021 so you may
 as well read it here anyway.
