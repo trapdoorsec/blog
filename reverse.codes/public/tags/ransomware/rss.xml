@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title>{REVEЯSE CODES}</title>
+      <title>{REVEЯSE CODES} - ransomware</title>
       <link>https://reverse.codes</link>
       <description></description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="https://reverse.codes/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://reverse.codes/tags/ransomware/rss.xml" rel="self" type="application/rss+xml"/>
       <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
       <item>
           <title>Australian Cybersecurity Act proposals Q3 2024</title>
@@ -47,32 +47,6 @@ to run a small value-add business on the back of forced labour, probably even mo
 &lt;p&gt;To put this into perspective, depending on who you ask, ransomware in 2021 cost us around USD $20 Billion. &lt;a href=&quot;https:&#x2F;&#x2F;www.ilo.org&#x2F;publications&#x2F;major-publications&#x2F;profits-and-poverty-economics-forced-labour&quot;&gt;The ILO argues that forced labour cost us an obscene USD$280 Billion&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Not to downplay just how much impact cybercrime in total generates, nor the ransomware piece of that puzzle, yet I do feel
 there is an opportunity for looking at the impact of technology availability in other areas, in the same breath as dealing with ransomware issues.&lt;&#x2F;p&gt;
-</description>
-      </item>
-      <item>
-          <title>About the Author</title>
-          <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-          <author>J. Burger</author>
-          <link>https://reverse.codes/blog/about-me/</link>
-          <guid>https://reverse.codes/blog/about-me/</guid>
-          <description xml:base="https://reverse.codes/blog/about-me/">&lt;p&gt;👋 Thanks for stopping by, I hope you find this blog valuable in some way. 🙏&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;me.png&quot; alt=&quot;A picture of me circa 2021&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;I started my career in IT as a junior software programmer way back in the olden days (1999). This turned into web application
-development, then application security roles, and I now find myself in cybersecurity governance, risk management &amp;amp; compliance,
-and leadership positions.&lt;&#x2F;p&gt;
-&lt;p&gt;I&#x27;ve seen a lot of things change and a lot of things stay the same over the years. I mainly write about the technologies I&#x27;ve learned,
-or ideas I&#x27;ve come across.&lt;&#x2F;p&gt;
-&lt;p&gt;🕵️ In case you&#x27;re curious, I&#x27;ll save you some OSINT legwork. LinkedIn leaked most of it back in 2021 so you may
-as well read it here anyway.&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-mastodon&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Mastodon&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&quot;&gt;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-x-twitter&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Twitter&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;x0_seska_0x&quot;&gt;https:&#x2F;&#x2F;x.com&#x2F;x0_seska_0x&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;LinkedIn&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jamesburger79&quot;&gt;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jamesburger79&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-cube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Hackthebox&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&quot;&gt;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-mug-hot&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;ko-fi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;p&gt;☕ If you do happen to find something worth supporting here, I&#x27;d really appreciate it! The best way to do this is to
-&lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;donate a coffee&lt;&#x2F;a&gt; to let me know to keep at it.&lt;&#x2F;p&gt;
 </description>
       </item>
     </channel>

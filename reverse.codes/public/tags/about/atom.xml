@@ -15,17 +15,8 @@
     <post_listing_date>date</post_listing_date>
     <link href="https://reverse.codes"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-06-29T00:00:00+00:00</updated>
+    <updated>1999-01-01T00:00:00+00:00</updated>
     <id>https://reverse.codes/tags/about/atom.xml</id><entry xml:lang="en">
-        <title>How was this site built</title>
-        <published>2024-06-29T00:00:00+00:00</published>
-        <updated>2024-06-29T00:00:00+00:00</updated>
-        <author>
-            <name>J. Burger</name>
-        </author>
-        <link rel="alternate" href="https://reverse.codes/blog/how-was-this-site-built/" type="text/html"/>
-        <id>https://reverse.codes/blog/how-was-this-site-built/</id>
-        </entry><entry xml:lang="en">
         <title>About the Author</title>
         <published>1999-01-01T00:00:00+00:00</published>
         <updated>1999-01-01T00:00:00+00:00</updated>

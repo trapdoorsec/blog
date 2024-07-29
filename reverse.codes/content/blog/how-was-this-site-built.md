@@ -1,6 +1,7 @@
 +++
 title = "How was this site built"
 date = "2024-06-29"
+draft = true
 [taxonomies]
 tags = ["about"]
 +++
