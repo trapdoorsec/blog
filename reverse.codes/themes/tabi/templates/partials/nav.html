@@ -29,7 +29,9 @@
                         </div>
                     </li>
                     {%- endif %}
-
+                    <li>
+                        <a href="/atom.xml"><i class="fa-solid fa-rss"></i></a>
+                    </li>
                     {# Language switcher #}
                     {# Display the language switcher only if more than one language is available #}
                     {%- if config.languages | length > 0 %}
