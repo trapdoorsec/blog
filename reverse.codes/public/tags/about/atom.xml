@@ -25,5 +25,14 @@
         </author>
         <link rel="alternate" href="https://reverse.codes/blog/how-was-this-site-built/" type="text/html"/>
         <id>https://reverse.codes/blog/how-was-this-site-built/</id>
+        </entry><entry xml:lang="en">
+        <title>About the Author</title>
+        <published>1999-01-01T00:00:00+00:00</published>
+        <updated>1999-01-01T00:00:00+00:00</updated>
+        <author>
+            <name>J. Burger</name>
+        </author>
+        <link rel="alternate" href="https://reverse.codes/blog/about-me/" type="text/html"/>
+        <id>https://reverse.codes/blog/about-me/</id>
         </entry>
 </feed>

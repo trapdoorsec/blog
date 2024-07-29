@@ -5,7 +5,14 @@
         <loc>https://reverse.codes/</loc>
     </url>
     <url>
+        <loc>https://reverse.codes/archive/</loc>
+    </url>
+    <url>
         <loc>https://reverse.codes/blog/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/blog/about-me/</loc>
+        <lastmod>1999-01-01</lastmod>
     </url>
     <url>
         <loc>https://reverse.codes/blog/how-was-this-site-built/</loc>
