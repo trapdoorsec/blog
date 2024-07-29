@@ -20,7 +20,12 @@ taxonomies = [
     {name = "tags", feed = true },
 ]
 
-
+[search]
+index_format = "elasticlunr_json" # Or the less efficient "elasticlunr_javascript".
+include_title = true
+include_description = true
+include_path = true
+include_content = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -32,10 +37,4 @@ highlight_theme = "css"
 [extra]
 # Put all your custom variables here
 stylesheets = ["/css/fontawesome.css", "/css/brands.css", "/css/solid.css"]
-[search]
-index_format = "elasticlunr_json" # Or the less efficient "elasticlunr_javascript".
-include_title = true
-include_description = true
-include_path = true
-include_content = true
-
+favicon = "/img/favicon.png"
