@@ -5,8 +5,9 @@ date = "2024-07-30"
 tags = ["cybersecurity", "legislation", "ransomware"]
 +++
 
-The Aussie Government is looking towards transparency over ransomware payments and appears to have landed on a mandatory reporting scheme
-source: [https://www.abc.net.au/news/2024-07-30/cyber-ransom-payments-new-laws-before-parliament/104113038](https://www.abc.net.au/news/2024-07-30/cyber-ransom-payments-new-laws-before-parliament/104113038)
+The Aussie Government is looking towards transparency over ransomware payments and appears to have landed on a mandatory reporting scheme.
+
+*source:* [https://www.abc.net.au/news/2024-07-30/cyber-ransom-payments-new-laws-before-parliament/104113038](https://www.abc.net.au/news/2024-07-30/cyber-ransom-payments-new-laws-before-parliament/104113038)
 
 ![a virus alert on a pew pew map](/img/stock_virus.jpg)
 
