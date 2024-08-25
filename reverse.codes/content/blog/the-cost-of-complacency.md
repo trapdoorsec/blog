@@ -33,12 +33,12 @@ to lean into the fact that I'm a grumpy old man and tell the war stories again.
 Reality is though, people clutch their pearls every time something awful happens, but nothing materially changes the status quo.
 
 ## The Morris Worm incident
-In 1988, an enterprising young student named Robert created what he thought was a harmless experiment to measure the size of 
-... um... the Internet. 
+In 1988, an enterprising young student named Robert created what he thought was a harmless experiment, presumably, to measure the size of 
+... um... the Internet. (Morris is reported to have stated that he only did it to see if it could be done.)
 
 ![Robert Morris relaxing at his computer drinking a coke](https://www.vice.com/wp-content/uploads/sites/2/2017/10/1508840382333-robert-morris-primo-worm.jpeg)
 
-However, His program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: `sendmail` - a Unix program.
+However, his program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: `sendmail` - a Unix program.
 
 He designed a self replication component to his program, and before he could say 'off by one error' he had infected around 10% of 
 the Internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.
@@ -201,6 +201,7 @@ and start factoring it into your strategic thinking, today. Because the warning 
 - https://www.wired.com/2002/01/find-the-cost-of-virus-freedom/
 - Code-red: case study on the spread and victims of an internet worm, D. Moore, C. Shannon, K. Claffy, https://dl.acm.org/doi/10.1145/637201.637244
 - The Internet Worm Program: An Analysis, Eugene H. Spafford, 1988 https://spaf.cerias.purdue.edu/tech-reps/823.pdf
+- https://x.com/paulg/status/1323246618326507524
 - https://www.theregister.com/2024/08/14/august_patch_tuesday_ipv6/
 - https://www.cisa.gov/resources-tools/resources/secure-by-design
 - https://www.sec.gov/newsroom/press-releases/2023-139
