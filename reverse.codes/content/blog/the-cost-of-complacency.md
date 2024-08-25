@@ -179,8 +179,9 @@ For product designers and engineers we go deeper:
 - Meet a baseline of Cybersecurity Performance Goals, which are too numerous to mention in this article, [use this link as reference instead](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals).
 
 # At what cost?
-Yes, that's right. But if you properly consider history, every time we have a 'black swan' event your customers governments
-are more likely to react with legislation. If you simply build like this today, you amortize that cost over the course of years, not months.
+Every time we have a 'black swan' event your customers governments are more likely to react with legislation. 
+If you simply build like this today, you amortize that cost over the course of years, not months. A recent estimate puts this 
+cost in the US at "$300 billion annually, only $53 billion less than firms spend on corporate income taxes." (T)
 
 Your customers and investors probably won't notice immediately, but when your competitors jack their prices up, you'll be smugly pointing to all the good work you did
 over the past few years and reaping the churn.
@@ -203,4 +204,6 @@ and start factoring it into your strategic thinking, today. Because the warning 
 - https://www.theregister.com/2024/08/14/august_patch_tuesday_ipv6/
 - https://www.cisa.gov/resources-tools/resources/secure-by-design
 - https://www.sec.gov/newsroom/press-releases/2023-139
+- https://www.theregreview.org/2024/02/28/hoguet-estimating-the-impact-of-regulation-on-business/
+- https://obamawhitehouse.archives.gov/omb/inforeg_intro
 
