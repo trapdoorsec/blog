@@ -19,8 +19,8 @@ value actually lies: the interpretation and delivery of human requirements, whic
 
 Example time, "Make the car drive autonomously" might look like a requirement to the average person, but in fact it is more of a _desirement_
 because it doesn't adequately express the complexities involved such that two different designs would both meet 
-a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh it's country 
-dependant? How will it know, oh so it needs GPS. Right. What if that fails? *
+a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh, it's country 
+dependent? How will it know, oh, so it needs GPS. Right. What if that fails? *
 
 So we need to understand, that to a product team, saying 'secure by default plzkthxbai' is really just a way of being annoying and 100% 
 non-constructive. They _know_ it's a good idea, just... how?
@@ -34,14 +34,14 @@ Reality is though, people clutch their pearls every time something awful happens
 
 ## The Morris Worm incident
 In 1988, an enterprising young student named Robert created what he thought was a harmless experiment to measure the size of 
-... um... the internet. 
+... um... the Internet. 
 
 ![Robert Morris relaxing at his computer drinking a coke](https://www.vice.com/wp-content/uploads/sites/2/2017/10/1508840382333-robert-morris-primo-worm.jpeg)
 
 However, His program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: `sendmail` - a Unix program.
 
 He designed a self replication component to his program, and before he could say 'off by one error' he had infected around 10% of 
-the internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.
+the Internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.
 
 This moment was pretty significant, in that it hadn't really happened on this scale before, but it also perfectly demonstrates
 why having insecure defaults opens us up to one of the nastiest types of malware: the worm - a self replicating program 
@@ -53,7 +53,7 @@ Another example: we used to be OK with Windows Server 2003 leaving port 445 (SMB
 especially good use of this fact - some of you will remember - their cyberattack of 2001 which targeted another default
 configuration in IIS (open port 80). 24 hours, 350000 servers brought to their knees, billions in lost productivity. (Moore, Shannon, Klaffy 2002)
 
-You can see where the product design decisions come from: make the internet easy to play with! Make networking easy! Minimize the clicks
+You can see where the product design decisions come from: make the Internet easy to play with! Make networking easy! Minimize the clicks
 a server admin needs to take in order to 'get online'! All laudable, money making ideas. Entirely insecure.
 
 Alas, these weren't entirely addressed until 5 years later, in Windows Server 2008 as Microsoft now had the 'very insecure'
@@ -78,7 +78,7 @@ breach and Crowdstrike outages of late. Go have a look at Crowdstrike share pric
 
 Now look at Equifax.
 
-![EFX stock price showing their continued rise in value since a massice databreach in 2017](/img/EFX-stock-price.png)
+![EFX stock price showing their continued rise in value since a massive databreach in 2017](/img/EFX-stock-price.png)
 
 It would seem that lost productivity makes for a good (bad?) news story, but as a society, I don't think we value it as much as
 journalists would have you believe. **Surely, we move to fix things all-proper-like when people die though, right?** 
@@ -105,7 +105,7 @@ I mean governments doing the regulation bit. And this will make everything more 
 # Where businesses fail to act, governments step in
 Remember when cars didn't have seat belts? OK, so I don't either, but that was a big issue in the 60s, people were dying enough that [Ralph Nader wrote a book about it](https://www.youtube.com/watch?v=vTnWMnLJqT8).
 
-That led to loads of litigation and then government regulation, and finally, a massive increase in saftey. 
+That led to loads of litigation and then government regulation, and finally, a massive increase in safety. 
 
 It also added well over 10% to the price of a car, depending on what sources you refer to. Could businesses have avoided this? Could cars have been cheaper and safer?
 
@@ -120,7 +120,7 @@ They know that the lawsuits are coming, [governments are even enabling them](htt
 
 # What if we adopted the CISA recommendations then...
 
-Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thankyou, for trying to
+Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thank you, for trying to
 play the long game, and make software cheaper for everyone by raising the bar and customers expectations!
 
 > There is no single solution to end the persistent threat of malicious
@@ -151,7 +151,7 @@ of compromise unless they implement additional compensatory controls
 Secure by default is a form of secure by design
 
 >Security should not be a luxury option, but
-should be considered a right customers receive
+should be considered a right [that] customers receive
 without negotiating or paying more.
 
 Honestly, there are so many good reasons to read this paper, just do it.
@@ -191,7 +191,7 @@ History shows us that without proactive measures from within, industries often f
 Final thought, consider [how much government regulation costs other industries](https://www.theregreview.org/2024/02/28/hoguet-estimating-the-impact-of-regulation-on-business/)
 and start factoring it into your strategic thinking, today. Because the warning shots have been fired.
 
-*- Complete aside: _In the authors opinion, this is why, time and time again, 'no code' solutions fail to live up to expectations (because they produce
+*- Complete aside: _In the author's opinion, this is why, time and time again, 'no code' solutions fail to live up to expectations (because they produce
   an unmaintainable mess that defies to be safely modified) and, why the armies of new wave AI-only 'programmers'
   aren't taking all the jobs in IT (because programming isn't the only skill we're hiring for here)._
 
