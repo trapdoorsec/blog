@@ -8,7 +8,7 @@ tags = ["cybersecurity", "product design", "secure by default"]
 In an era where cyber threats loom larger than ever, being a good global citizen means prioritizing not just functional 
 software but also security by design. _Security is an expected function._
 
-![stock-secure_lock.jpeg](/img/stock-lock.jpeg)
+![stock image of a lock being damaged using ice](/img/stock-lock.jpeg)
 ---
 
 # Software isn't difficult, humans are.
