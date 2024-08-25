@@ -15,8 +15,17 @@
     <post_listing_date>date</post_listing_date>
     <link href="https://reverse.codes"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-07-30T00:00:00+00:00</updated>
+    <updated>2024-08-26T00:00:00+00:00</updated>
     <id>https://reverse.codes/tags/cybersecurity/atom.xml</id><entry xml:lang="en">
+        <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
+        <published>2024-08-26T00:00:00+00:00</published>
+        <updated>2024-08-26T00:00:00+00:00</updated>
+        <author>
+            <name>J. Burger</name>
+        </author>
+        <link rel="alternate" href="https://reverse.codes/blog/the-cost-of-complacency/" type="text/html"/>
+        <id>https://reverse.codes/blog/the-cost-of-complacency/</id>
+        </entry><entry xml:lang="en">
         <title>Australian Cybersecurity Act proposals Q3 2024</title>
         <published>2024-07-30T00:00:00+00:00</published>
         <updated>2024-07-30T00:00:00+00:00</updated>

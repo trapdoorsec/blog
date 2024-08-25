@@ -22,6 +22,10 @@
         <loc>https://reverse.codes/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://reverse.codes/blog/the-cost-of-complacency/</loc>
+        <lastmod>2024-08-26</lastmod>
+    </url>
+    <url>
         <loc>https://reverse.codes/projects/</loc>
     </url>
     <url>
@@ -40,6 +44,12 @@
         <loc>https://reverse.codes/tags/legislation/</loc>
     </url>
     <url>
+        <loc>https://reverse.codes/tags/product-design/</loc>
+    </url>
+    <url>
         <loc>https://reverse.codes/tags/ransomware/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/tags/secure-by-default/</loc>
     </url>
 </urlset>

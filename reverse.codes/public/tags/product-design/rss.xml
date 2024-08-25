@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>{REVEЯSE CODES} - product design</title>
+      <link>https://reverse.codes</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://reverse.codes/tags/product-design/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
+          <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+          <author>J. Burger</author>
+          <link>https://reverse.codes/blog/the-cost-of-complacency/</link>
+          <guid>https://reverse.codes/blog/the-cost-of-complacency/</guid>
+          <description xml:base="https://reverse.codes/blog/the-cost-of-complacency/">&lt;p&gt;In an era where cyber threats loom larger than ever, being a good global citizen means prioritizing not just functional
+software but also security by design. &lt;em&gt;Security is an expected function.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;stock-secure-lock-jpeg&quot;&gt;&lt;img src=&quot;&#x2F;img&#x2F;stock-lock.jpeg&quot; alt=&quot;stock-secure_lock.jpeg&quot; &#x2F;&gt;&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;software-isn-t-difficult-humans-are&quot;&gt;Software isn&#x27;t difficult, humans are.&lt;&#x2F;h1&gt;
+&lt;p&gt;You know that overused &lt;a href=&quot;https:&#x2F;&#x2F;martinfowler.com&#x2F;bliki&#x2F;TwoHardThings.html&quot;&gt;joke in software circles&lt;&#x2F;a&gt; about there being two
+hard things? Well, one of those things, &#x27;naming things&#x27; I feel extends to &lt;em&gt;defining things&lt;&#x2F;em&gt;, because this is where software&#x27;s
+value actually lies: the interpretation and delivery of human requirements, which are notoriously difficult to pinpoint sometimes.&lt;&#x2F;p&gt;
+&lt;p&gt;Example time, &quot;Make the car drive autonomously&quot; might look like a requirement to the average person, but in fact it is more of a &lt;em&gt;desirement&lt;&#x2F;em&gt;
+because it doesn&#x27;t adequately express the complexities involved such that two different designs would both meet
+a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh it&#x27;s country
+dependant? How will it know, oh so it needs GPS. Right. What if that fails? *&lt;&#x2F;p&gt;
+&lt;p&gt;So we need to understand, that to a product team, saying &#x27;secure by default plzkthxbai&#x27; is really just a way of being annoying and 100%
+non-constructive. They &lt;em&gt;know&lt;&#x2F;em&gt; it&#x27;s a good idea, just... how?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;why-do-we-even-care-about-secure-by-default&quot;&gt;Why do we even care about secure by default?&lt;&#x2F;h1&gt;
+&lt;p&gt;OK so, I&#x27;ll admit, if somebody says to me that secure by default is not a priority, I get a bit hot-blooded. It makes me want
+to lean into the fact that I&#x27;m a grumpy old man and tell the war stories again.&lt;&#x2F;p&gt;
+&lt;p&gt;Reality is though, people clutch their pearls every time something awful happens, but nothing materially changes the status quo.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-morris-worm-incident&quot;&gt;The Morris Worm incident&lt;&#x2F;h2&gt;
+&lt;p&gt;In 1988, an enterprising young student named Robert created what he thought was a harmless experiment to measure the size of
+... um... the internet.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.vice.com&#x2F;wp-content&#x2F;uploads&#x2F;sites&#x2F;2&#x2F;2017&#x2F;10&#x2F;1508840382333-robert-morris-primo-worm.jpeg&quot; alt=&quot;Robert Morris relaxing at his computer drinking a coke&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;However, His program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: &lt;code&gt;sendmail&lt;&#x2F;code&gt; - a Unix program.&lt;&#x2F;p&gt;
+&lt;p&gt;He designed a self replication component to his program, and before he could say &#x27;off by one error&#x27; he had infected around 10% of
+the internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.&lt;&#x2F;p&gt;
+&lt;p&gt;This moment was pretty significant, in that it hadn&#x27;t really happened on this scale before, but it also perfectly demonstrates
+why having insecure defaults opens us up to one of the nastiest types of malware: the worm - a self replicating program
+capable of spreading itself without user interactions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-code-red-incident&quot;&gt;The Code Red Incident&lt;&#x2F;h2&gt;
+&lt;p&gt;Another example: we used to be OK with Windows Server 2003 leaving port 445 (SMB protocol) open on install. Code Red made
+especially good use of this fact - some of you will remember - their cyberattack of 2001 which targeted another default
+configuration in IIS (open port 80). 24 hours, 350000 servers brought to their knees, billions in lost productivity. (Moore, Shannon, Klaffy 2002)&lt;&#x2F;p&gt;
+&lt;p&gt;You can see where the product design decisions come from: make the internet easy to play with! Make networking easy! Minimize the clicks
+a server admin needs to take in order to &#x27;get online&#x27;! All laudable, money making ideas. Entirely insecure.&lt;&#x2F;p&gt;
+&lt;p&gt;Alas, these weren&#x27;t entirely addressed until 5 years later, in Windows Server 2008 as Microsoft now had the &#x27;very insecure&#x27;
+label that they probably wanted to shake.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fast-forward-to-2024-ipv6-has-the-same-problem&quot;&gt;Fast forward to 2024: IPv6 has the same problem&lt;&#x2F;h2&gt;
+&lt;p&gt;It has recently been revealed that &lt;a href=&quot;https:&#x2F;&#x2F;www.theregister.com&#x2F;2024&#x2F;08&#x2F;14&#x2F;august_patch_tuesday_ipv6&#x2F;&quot;&gt;IPv6 had a vulnerability&lt;&#x2F;a&gt;, causing concern among IT professionals.&lt;&#x2F;p&gt;
+&lt;p&gt;The reason for this is that it also is &#x27;wormable&#x27;. Why is that? How can a bug in an internet protocol do that, when there was
+no default password?&lt;&#x2F;p&gt;
+&lt;p&gt;In this case, the issue is that many devices and indeed operating systems, enable IPv6 by default, &lt;em&gt;even though they don&#x27;t strictly need it&lt;&#x2F;em&gt;. Combine that fact with
+the remote code execution vulnerability in IPv6, and suddenly, we have a worm.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion-water-is-wet-and-investors-don-t-care&quot;&gt;Conclusion: Water is wet and investors don&#x27;t care.&lt;&#x2F;h2&gt;
+&lt;p&gt;All this did not ruin Microsoft, Unix still exists today, SMB is still a protocol that is used.
+So, none of the impacts where so bad that humanity cancelled them from all relevance. This tale is repeated in the Solarwinds
+breach and Crowdstrike outages of late. Go have a look at Crowdstrike share price, I dare you.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;CRWD-stock-price.png&quot; alt=&quot;CRWD stock price showing their almost immediate recovery from perhaps the biggest outage in IT history&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now look at Equifax.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;EFX-stock-price.png&quot; alt=&quot;EFX stock price showing their continued rise in value since a massice databreach in 2017&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It would seem that lost productivity makes for a good (bad?) news story, but as a society, I don&#x27;t think we value it as much as
+journalists would have you believe. &lt;strong&gt;Surely, we move to fix things all-proper-like when people die though, right?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Right?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Stuxnet&quot;&gt;Stuxnet&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;WannaCry_ransomware_attack#Affected_organisations&quot;&gt;WannaCry&lt;&#x2F;a&gt;, Ransomware in general, heck arguably, even the old &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Therac-25#Root_causes&quot;&gt;Therac-25 Radiation Therapy Machine&lt;&#x2F;a&gt; of the 1980s were all situations
+where human lives could have been, if not were, affected because of insecure by design or other design flaws we would consider
+to be security adjacent.&lt;&#x2F;p&gt;
+&lt;p&gt;So no, fact is, when it all comes down to the cold hard math of making said crusts, people (not just &#x27;big evil companies&#x27; I might add),
+put their earning potential ahead of all else.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;this-is-extremely-short-sighted&quot;&gt;This is extremely short-sighted&lt;&#x2F;h1&gt;
+&lt;p&gt;At the moment we enjoy relatively cheap technology, maybe a few more ads than I&#x27;d like, but for those with enough means
+to purchase a device, much of the software you need to make your life easier is near enough to free.&lt;&#x2F;p&gt;
+&lt;p&gt;The thing that does change though, is the rate at which we embed technology into the critical parts of our lives. This is a given.&lt;&#x2F;p&gt;
+&lt;p&gt;In order to protect lives, we are now looking at the alternative solution to businesses regulating themselves. Of course,
+I mean governments doing the regulation bit. And this will make everything more expensive.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;where-businesses-fail-to-act-governments-step-in&quot;&gt;Where businesses fail to act, governments step in&lt;&#x2F;h1&gt;
+&lt;p&gt;Remember when cars didn&#x27;t have seat belts? OK, so I don&#x27;t either, but that was a big issue in the 60s, people were dying enough that &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vTnWMnLJqT8&quot;&gt;Ralph Nader wrote a book about it&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;That led to loads of litigation and then government regulation, and finally, a massive increase in saftey.&lt;&#x2F;p&gt;
+&lt;p&gt;It also added well over 10% to the price of a car, depending on what sources you refer to. Could businesses have avoided this? Could cars have been cheaper and safer?&lt;&#x2F;p&gt;
+&lt;p&gt;So given the above, in my opinion, tech companies will have their &#x27;Ralph Nader&#x27; moment in the future, and until then, things aren&#x27;t likely to change.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;the-us-government-is-actually-doing-something-meaningful-to-prevent-the-repeat-of-history&quot;&gt;The US Government is actually doing something meaningful to prevent the repeat of history&lt;&#x2F;h1&gt;
+&lt;p&gt;Enter the &lt;a href=&quot;https:&#x2F;&#x2F;www.cisa.gov&#x2F;resources-tools&#x2F;resources&#x2F;secure-by-design&quot;&gt;CISA recommendations of 2023&lt;&#x2F;a&gt;, which is the first attempt at
+a government (that I&#x27;m aware of, at least), that tries to properly define &#x27;secure by design&#x27;.&lt;&#x2F;p&gt;
+&lt;p&gt;The subtext is often missed though. CISA is trying to give us all a massive hint: &quot;start doing these things before we force you to do them.&quot;
+They know that the lawsuits are coming, &lt;a href=&quot;https:&#x2F;&#x2F;www.sec.gov&#x2F;newsroom&#x2F;press-releases&#x2F;2023-139&quot;&gt;governments are even enabling them&lt;&#x2F;a&gt;, as one of the biggest customers of technology, this makes perfect sense.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-if-we-adopted-the-cisa-recommendations-then&quot;&gt;What if we adopted the CISA recommendations then...&lt;&#x2F;h1&gt;
+&lt;p&gt;Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thankyou, for trying to
+play the long game, and make software cheaper for everyone by raising the bar and customers expectations!&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is no single solution to end the persistent threat of malicious
+cyber actors exploiting technology vulnerabilities, and products that are
+“secure by design” will continue to suffer vulnerabilities; however, a large
+set of vulnerabilities are due to a relatively small subset of root causes&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;-&lt;em&gt;Secure by Design: Principles and Approaches to Secure By Design Software, CISA, 2023&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In this document two definitions now exist that you can hang your hat on as a product designer, or software engineer.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&quot;secure-by-design&quot;&gt;Secure by design&lt;&#x2F;h4&gt;
+&lt;p&gt;&quot;Secure by design&quot; means that technology products are built in a way
+that reasonably protects against malicious cyber actors successfully
+gaining access to devices, data, and connected infrastructure Software
+manufacturers should perform a risk assessment to identify and enumerate
+prevalent cyber threats to critical systems, and then include protections in
+product blueprints that account for the evolving cyber threat landscape.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&quot;secure-by-default&quot;&gt;Secure by default&lt;&#x2F;h4&gt;
+&lt;p&gt;“Secure by default” means products are resilient against prevalent
+exploitation techniques out of the box without added charge These
+products protect against the most prevalent threats and vulnerabilities
+without end-users having to take additional steps to secure them Secure
+by default products are designed to make customers acutely aware that
+when they deviate from safe defaults, they are increasing the likelihood
+of compromise unless they implement additional compensatory controls
+Secure by default is a form of secure by design&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Security should not be a luxury option, but
+should be considered a right customers receive
+without negotiating or paying more.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Honestly, there are so many good reasons to read this paper, just do it.&lt;&#x2F;p&gt;
+&lt;p&gt;Summarizing for you though, they do a great job of boiling this down to three core principles that any business owner can apply
+to their company.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take ownership of customer security outcomes&lt;&#x2F;li&gt;
+&lt;li&gt;Embrace radical transparency and accountability&lt;&#x2F;li&gt;
+&lt;li&gt;Build organizational structure and leadership to achieve these goals&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;For product designers and engineers we go deeper:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Memory safe language use&lt;&#x2F;li&gt;
+&lt;li&gt;Lean on hardware that can use fine-grained memory protection&lt;&#x2F;li&gt;
+&lt;li&gt;Acquire and maintain secure software components (yes, this means libraries and middleware)&lt;&#x2F;li&gt;
+&lt;li&gt;Lean on web frameworks that properly escape inputs&lt;&#x2F;li&gt;
+&lt;li&gt;Use parameterized database queries to avoid injection flaws&lt;&#x2F;li&gt;
+&lt;li&gt;Use static and dynamic application security testing tools to assist in error detection&lt;&#x2F;li&gt;
+&lt;li&gt;Code review should be a thing you do (i.e. QA)&lt;&#x2F;li&gt;
+&lt;li&gt;Provide an SBoM&lt;&#x2F;li&gt;
+&lt;li&gt;Establish Vulnerability Disclosure programs&lt;&#x2F;li&gt;
+&lt;li&gt;Include root cause or CWE references in CVE reports&lt;&#x2F;li&gt;
+&lt;li&gt;Design infrastructure such that the compromise of a single security control does not result in total system compromise.&lt;&#x2F;li&gt;
+&lt;li&gt;Meet a baseline of Cybersecurity Performance Goals, which are too numerous to mention in this article, &lt;a href=&quot;https:&#x2F;&#x2F;www.cisa.gov&#x2F;cross-sector-cybersecurity-performance-goals&quot;&gt;use this link as reference instead&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;at-what-cost&quot;&gt;At what cost?&lt;&#x2F;h1&gt;
+&lt;p&gt;Yes, that&#x27;s right. But if you properly consider history, every time we have a &#x27;black swan&#x27; event your customers governments
+are more likely to react with legislation. If you simply build like this today, you amortize that cost over the course of years, not months.&lt;&#x2F;p&gt;
+&lt;p&gt;Your customers and investors probably won&#x27;t notice immediately, but when your competitors jack their prices up, you&#x27;ll be smugly pointing to all the good work you did
+over the past few years and reaping the churn.&lt;&#x2F;p&gt;
+&lt;p&gt;History shows us that without proactive measures from within, industries often face stringent external regulations. By adopting CISA’s 2023 recommendations now, technology companies can not only avert crises but also pave the way for a safer digital future. It’s not just about avoiding penalties—it’s about leading the charge towards a more secure world. What steps will you take to ensure your products are secure by design?&lt;&#x2F;p&gt;
+&lt;p&gt;Final thought, consider &lt;a href=&quot;https:&#x2F;&#x2F;www.theregreview.org&#x2F;2024&#x2F;02&#x2F;28&#x2F;hoguet-estimating-the-impact-of-regulation-on-business&#x2F;&quot;&gt;how much government regulation costs other industries&lt;&#x2F;a&gt;
+and start factoring it into your strategic thinking, today. Because the warning shots have been fired.&lt;&#x2F;p&gt;
+&lt;p&gt;*- Complete aside: &lt;em&gt;In the authors opinion, this is why, time and time again, &#x27;no code&#x27; solutions fail to live up to expectations (because they produce
+an unmaintainable mess that defies to be safely modified) and, why the armies of new wave AI-only &#x27;programmers&#x27;
+aren&#x27;t taking all the jobs in IT (because programming isn&#x27;t the only skill we&#x27;re hiring for here).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.abc.net.au&#x2F;news&#x2F;2017-05-14&#x2F;ransomware-cyberattack-threat-lingers-as-people-return-to-work&#x2F;8525554&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.wired.com&#x2F;2002&#x2F;01&#x2F;find-the-cost-of-virus-freedom&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;Code-red: case study on the spread and victims of an internet worm, D. Moore, C. Shannon, K. Claffy, https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;637201.637244&lt;&#x2F;li&gt;
+&lt;li&gt;The Internet Worm Program: An Analysis, Eugene H. Spafford, 1988 https:&#x2F;&#x2F;spaf.cerias.purdue.edu&#x2F;tech-reps&#x2F;823.pdf&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.theregister.com&#x2F;2024&#x2F;08&#x2F;14&#x2F;august_patch_tuesday_ipv6&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.cisa.gov&#x2F;resources-tools&#x2F;resources&#x2F;secure-by-design&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.sec.gov&#x2F;newsroom&#x2F;press-releases&#x2F;2023-139&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>
