@@ -41,7 +41,13 @@
         <loc>https://reverse.codes/tags/cybersecurity/</loc>
     </url>
     <url>
+        <loc>https://reverse.codes/tags/htb/</loc>
+    </url>
+    <url>
         <loc>https://reverse.codes/tags/legislation/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/tags/penetration-testing/</loc>
     </url>
     <url>
         <loc>https://reverse.codes/tags/product-design/</loc>
@@ -53,6 +59,16 @@
         <loc>https://reverse.codes/tags/secure-by-default/</loc>
     </url>
     <url>
+        <loc>https://reverse.codes/tags/walkthrough/</loc>
+    </url>
+    <url>
         <loc>https://reverse.codes/walkthrough/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/walkthrough/code-part-2/</loc>
+        <lastmod>2025-11-22</lastmod>
+    </url>
+    <url>
+        <loc>https://reverse.codes/walkthrough/page/1/</loc>
     </url>
 </urlset>

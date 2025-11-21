@@ -10,13 +10,13 @@
         <str:recent_posts>Recent posts</str:recent_posts>
         <str:last_updated_on>Updated on $DATE</str:last_updated_on>
         <str:default_theme></str:default_theme>
-    </str:translations><title>{REVEЯSE CODES} - cybersecurity</title>
-    <link href="https://reverse.codes/tags/cybersecurity/atom.xml" rel="self" type="application/atom+xml"/>
+    </str:translations><title>{REVEЯSE CODES} - HTB</title>
+    <link href="https://reverse.codes/tags/htb/atom.xml" rel="self" type="application/atom+xml"/>
     <post_listing_date>date</post_listing_date>
     <link href="https://reverse.codes"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-11-22T00:00:00+00:00</updated>
-    <id>https://reverse.codes/tags/cybersecurity/atom.xml</id><entry xml:lang="en">
+    <id>https://reverse.codes/tags/htb/atom.xml</id><entry xml:lang="en">
         <title>HTB Walkthrough: CodePartTwo</title>
         <published>2025-11-22T00:00:00+00:00</published>
         <updated>2025-11-22T00:00:00+00:00</updated>
@@ -25,23 +25,5 @@
         </author>
         <link rel="alternate" href="https://reverse.codes/walkthrough/code-part-2/" type="text/html"/>
         <id>https://reverse.codes/walkthrough/code-part-2/</id>
-        </entry><entry xml:lang="en">
-        <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
-        <published>2024-08-26T00:00:00+00:00</published>
-        <updated>2024-08-26T00:00:00+00:00</updated>
-        <author>
-            <name>seska</name>
-        </author>
-        <link rel="alternate" href="https://reverse.codes/blog/the-cost-of-complacency/" type="text/html"/>
-        <id>https://reverse.codes/blog/the-cost-of-complacency/</id>
-        </entry><entry xml:lang="en">
-        <title>Australian Cybersecurity Act proposals Q3 2024</title>
-        <published>2024-07-30T00:00:00+00:00</published>
-        <updated>2024-07-30T00:00:00+00:00</updated>
-        <author>
-            <name>seska</name>
-        </author>
-        <link rel="alternate" href="https://reverse.codes/blog/cyber-security-act-q3-2024/" type="text/html"/>
-        <id>https://reverse.codes/blog/cyber-security-act-q3-2024/</id>
         </entry>
 </feed>

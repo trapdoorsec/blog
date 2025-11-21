@@ -15,8 +15,17 @@
     <post_listing_date>date</post_listing_date>
     <link href="https://reverse.codes"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-26T00:00:00+00:00</updated>
+    <updated>2025-11-22T00:00:00+00:00</updated>
     <id>https://reverse.codes/atom.xml</id><entry xml:lang="en">
+        <title>HTB Walkthrough: CodePartTwo</title>
+        <published>2025-11-22T00:00:00+00:00</published>
+        <updated>2025-11-22T00:00:00+00:00</updated>
+        <author>
+            <name>seska</name>
+        </author>
+        <link rel="alternate" href="https://reverse.codes/walkthrough/code-part-2/" type="text/html"/>
+        <id>https://reverse.codes/walkthrough/code-part-2/</id>
+        </entry><entry xml:lang="en">
         <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
         <published>2024-08-26T00:00:00+00:00</published>
         <updated>2024-08-26T00:00:00+00:00</updated>
