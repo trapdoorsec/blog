@@ -42,9 +42,9 @@
 
     
         <link rel="stylesheet" href="https://reverse.codes/main.css?h=c392ef5add34b44d2110" />
-        <link rel="stylesheet" href="https://reverse.codes/css/fontawesome.css?h=fd0cb98e460f790e0f79" />
-        <link rel="stylesheet" href="https://reverse.codes/css/brands.css?h=ae212b210fda90bdce2b" />
-        <link rel="stylesheet" href="https://reverse.codes/css/solid.css?h=a3086c6a8da9ef4069e6" />
+        <link rel="stylesheet" href="https://reverse.codes/css/fontawesome.css?h=1e22547751129dc2f450" />
+        <link rel="stylesheet" href="https://reverse.codes/css/brands.css?h=a58f5443adb1bc4a4d9e" />
+        <link rel="stylesheet" href="https://reverse.codes/css/solid.css?h=17084772f1da6ca4ab4f" />
 
     <meta name="color-scheme" content="light dark" />
         <meta name="description" content="" />
@@ -104,8 +104,15 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
                         
                             <li>
                                 
-                                <a class="nav-links no-hover-padding" href="https://reverse.codes/projects/">
+                                <a class="nav-links no-hover-padding" href="https://reverse.codes/project/">
                                 projects
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://reverse.codes/walkthrough/">
+                                walkthroughs
                                 </a>
                             </li>
                         <li class="js">
@@ -158,7 +165,7 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
             The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.
         </h1>
 
-        <ul class="meta"><li>26th Aug 2024</li>&nbsp;•&nbsp;<li title="2100 words">11 min read</li>&nbsp;•&nbsp;<li>Tags:&nbsp;</li><li><a href=https://reverse.codes/tags/cybersecurity/>cybersecurity</a>,&nbsp;</li><li><a href=https://reverse.codes/tags/product-design/>product design</a>,&nbsp;</li><li><a href=https://reverse.codes/tags/secure-by-default/>secure by default</a></li>
+        <ul class="meta"><li>26th Aug 2024</li>&nbsp;•&nbsp;<li title="2166 words">11 min read</li>&nbsp;•&nbsp;<li>Tags:&nbsp;</li><li><a href=https://reverse.codes/tags/cybersecurity/>cybersecurity</a>,&nbsp;</li><li><a href=https://reverse.codes/tags/product-design/>product design</a>,&nbsp;</li><li><a href=https://reverse.codes/tags/secure-by-default/>secure by default</a></li>
         </ul>
 
         
@@ -171,15 +178,15 @@ content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#
             
             <p>In an era where cyber threats loom larger than ever, being a good global citizen means prioritizing not just functional
 software but also security by design. <em>Security is an expected function.</em></p>
-<h2 id="stock-secure-lock-jpeg"><img src="/img/stock-lock.jpeg" alt="stock-secure_lock.jpeg" /></h2>
+<h2 id="stock-image-of-a-lock-being-damaged-using-ice"><img src="/img/stock-lock.jpeg" alt="stock image of a lock being damaged using ice" /></h2>
 <h1 id="software-isn-t-difficult-humans-are">Software isn't difficult, humans are.</h1>
 <p>You know that overused <a href="https://martinfowler.com/bliki/TwoHardThings.html">joke in software circles</a> about there being two
 hard things? Well, one of those things, 'naming things' I feel extends to <em>defining things</em>, because this is where software's
 value actually lies: the interpretation and delivery of human requirements, which are notoriously difficult to pinpoint sometimes.</p>
 <p>Example time, "Make the car drive autonomously" might look like a requirement to the average person, but in fact it is more of a <em>desirement</em>
 because it doesn't adequately express the complexities involved such that two different designs would both meet
-a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh it's country
-dependant? How will it know, oh so it needs GPS. Right. What if that fails? *</p>
+a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh, it's country
+dependent? How will it know, oh, so it needs GPS. Right. What if that fails? *</p>
 <p>So we need to understand, that to a product team, saying 'secure by default plzkthxbai' is really just a way of being annoying and 100%
 non-constructive. They <em>know</em> it's a good idea, just... how?</p>
 <h1 id="why-do-we-even-care-about-secure-by-default">Why do we even care about secure by default?</h1>
@@ -187,12 +194,12 @@ non-constructive. They <em>know</em> it's a good idea, just... how?</p>
 to lean into the fact that I'm a grumpy old man and tell the war stories again.</p>
 <p>Reality is though, people clutch their pearls every time something awful happens, but nothing materially changes the status quo.</p>
 <h2 id="the-morris-worm-incident">The Morris Worm incident</h2>
-<p>In 1988, an enterprising young student named Robert created what he thought was a harmless experiment to measure the size of
-... um... the internet.</p>
+<p>In 1988, an enterprising young student named Robert created what he thought was a harmless experiment, presumably, to measure the size of
+... um... the Internet. (Morris is reported to have stated that he only did it to see if it could be done.)</p>
 <p><img src="https://www.vice.com/wp-content/uploads/sites/2/2017/10/1508840382333-robert-morris-primo-worm.jpeg" alt="Robert Morris relaxing at his computer drinking a coke" /></p>
-<p>However, His program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: <code>sendmail</code> - a Unix program.</p>
+<p>However, his program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: <code>sendmail</code> - a Unix program.</p>
 <p>He designed a self replication component to his program, and before he could say 'off by one error' he had infected around 10% of
-the internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.</p>
+the Internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.</p>
 <p>This moment was pretty significant, in that it hadn't really happened on this scale before, but it also perfectly demonstrates
 why having insecure defaults opens us up to one of the nastiest types of malware: the worm - a self replicating program
 capable of spreading itself without user interactions.</p>
@@ -200,7 +207,7 @@ capable of spreading itself without user interactions.</p>
 <p>Another example: we used to be OK with Windows Server 2003 leaving port 445 (SMB protocol) open on install. Code Red made
 especially good use of this fact - some of you will remember - their cyberattack of 2001 which targeted another default
 configuration in IIS (open port 80). 24 hours, 350000 servers brought to their knees, billions in lost productivity. (Moore, Shannon, Klaffy 2002)</p>
-<p>You can see where the product design decisions come from: make the internet easy to play with! Make networking easy! Minimize the clicks
+<p>You can see where the product design decisions come from: make the Internet easy to play with! Make networking easy! Minimize the clicks
 a server admin needs to take in order to 'get online'! All laudable, money making ideas. Entirely insecure.</p>
 <p>Alas, these weren't entirely addressed until 5 years later, in Windows Server 2008 as Microsoft now had the 'very insecure'
 label that they probably wanted to shake.</p>
@@ -216,7 +223,7 @@ So, none of the impacts where so bad that humanity cancelled them from all relev
 breach and Crowdstrike outages of late. Go have a look at Crowdstrike share price, I dare you.</p>
 <p><img src="/img/CRWD-stock-price.png" alt="CRWD stock price showing their almost immediate recovery from perhaps the biggest outage in IT history" /></p>
 <p>Now look at Equifax.</p>
-<p><img src="/img/EFX-stock-price.png" alt="EFX stock price showing their continued rise in value since a massice databreach in 2017" /></p>
+<p><img src="/img/EFX-stock-price.png" alt="EFX stock price showing their continued rise in value since a massive databreach in 2017" /></p>
 <p>It would seem that lost productivity makes for a good (bad?) news story, but as a society, I don't think we value it as much as
 journalists would have you believe. <strong>Surely, we move to fix things all-proper-like when people die though, right?</strong></p>
 <p><em>Right?</em></p>
@@ -233,7 +240,7 @@ to purchase a device, much of the software you need to make your life easier is 
 I mean governments doing the regulation bit. And this will make everything more expensive.</p>
 <h1 id="where-businesses-fail-to-act-governments-step-in">Where businesses fail to act, governments step in</h1>
 <p>Remember when cars didn't have seat belts? OK, so I don't either, but that was a big issue in the 60s, people were dying enough that <a href="https://www.youtube.com/watch?v=vTnWMnLJqT8">Ralph Nader wrote a book about it</a>.</p>
-<p>That led to loads of litigation and then government regulation, and finally, a massive increase in saftey.</p>
+<p>That led to loads of litigation and then government regulation, and finally, a massive increase in safety.</p>
 <p>It also added well over 10% to the price of a car, depending on what sources you refer to. Could businesses have avoided this? Could cars have been cheaper and safer?</p>
 <p>So given the above, in my opinion, tech companies will have their 'Ralph Nader' moment in the future, and until then, things aren't likely to change.</p>
 <h1 id="the-us-government-is-actually-doing-something-meaningful-to-prevent-the-repeat-of-history">The US Government is actually doing something meaningful to prevent the repeat of history</h1>
@@ -242,7 +249,7 @@ a government (that I'm aware of, at least), that tries to properly define 'secur
 <p>The subtext is often missed though. CISA is trying to give us all a massive hint: "start doing these things before we force you to do them."
 They know that the lawsuits are coming, <a href="https://www.sec.gov/newsroom/press-releases/2023-139">governments are even enabling them</a>, as one of the biggest customers of technology, this makes perfect sense.</p>
 <h1 id="what-if-we-adopted-the-cisa-recommendations-then">What if we adopted the CISA recommendations then...</h1>
-<p>Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thankyou, for trying to
+<p>Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thank you, for trying to
 play the long game, and make software cheaper for everyone by raising the bar and customers expectations!</p>
 <blockquote>
 <p>There is no single solution to end the persistent threat of malicious
@@ -274,7 +281,7 @@ Secure by default is a form of secure by design</p>
 </blockquote>
 <blockquote>
 <p>Security should not be a luxury option, but
-should be considered a right customers receive
+should be considered a right [that] customers receive
 without negotiating or paying more.</p>
 </blockquote>
 <p>Honestly, there are so many good reasons to read this paper, just do it.</p>
@@ -301,14 +308,15 @@ to their company.</p>
 <li>Meet a baseline of Cybersecurity Performance Goals, which are too numerous to mention in this article, <a href="https://www.cisa.gov/cross-sector-cybersecurity-performance-goals">use this link as reference instead</a>.</li>
 </ul>
 <h1 id="at-what-cost">At what cost?</h1>
-<p>Yes, that's right. But if you properly consider history, every time we have a 'black swan' event your customers governments
-are more likely to react with legislation. If you simply build like this today, you amortize that cost over the course of years, not months.</p>
+<p>Every time we have a 'black swan' event your customers governments are more likely to react with legislation.
+If you simply build like this today, you amortize that cost over the course of years, not months. A recent estimate puts this
+cost in the US at "$300 billion annually, only $53 billion less than firms spend on corporate income taxes." (T)</p>
 <p>Your customers and investors probably won't notice immediately, but when your competitors jack their prices up, you'll be smugly pointing to all the good work you did
 over the past few years and reaping the churn.</p>
 <p>History shows us that without proactive measures from within, industries often face stringent external regulations. By adopting CISA’s 2023 recommendations now, technology companies can not only avert crises but also pave the way for a safer digital future. It’s not just about avoiding penalties—it’s about leading the charge towards a more secure world. What steps will you take to ensure your products are secure by design?</p>
 <p>Final thought, consider <a href="https://www.theregreview.org/2024/02/28/hoguet-estimating-the-impact-of-regulation-on-business/">how much government regulation costs other industries</a>
 and start factoring it into your strategic thinking, today. Because the warning shots have been fired.</p>
-<p>*- Complete aside: <em>In the authors opinion, this is why, time and time again, 'no code' solutions fail to live up to expectations (because they produce
+<p>*- Complete aside: <em>In the author's opinion, this is why, time and time again, 'no code' solutions fail to live up to expectations (because they produce
 an unmaintainable mess that defies to be safely modified) and, why the armies of new wave AI-only 'programmers'
 aren't taking all the jobs in IT (because programming isn't the only skill we're hiring for here).</em></p>
 <h1 id="references">References</h1>
@@ -317,9 +325,12 @@ aren't taking all the jobs in IT (because programming isn't the only skill we're
 <li>https://www.wired.com/2002/01/find-the-cost-of-virus-freedom/</li>
 <li>Code-red: case study on the spread and victims of an internet worm, D. Moore, C. Shannon, K. Claffy, https://dl.acm.org/doi/10.1145/637201.637244</li>
 <li>The Internet Worm Program: An Analysis, Eugene H. Spafford, 1988 https://spaf.cerias.purdue.edu/tech-reps/823.pdf</li>
+<li>https://x.com/paulg/status/1323246618326507524</li>
 <li>https://www.theregister.com/2024/08/14/august_patch_tuesday_ipv6/</li>
 <li>https://www.cisa.gov/resources-tools/resources/secure-by-design</li>
 <li>https://www.sec.gov/newsroom/press-releases/2023-139</li>
+<li>https://www.theregreview.org/2024/02/28/hoguet-estimating-the-impact-of-regulation-on-business/</li>
+<li>https://obamawhitehouse.archives.gov/omb/inforeg_intro</li>
 </ul>
 
         </section>
@@ -376,6 +387,19 @@ aren't taking all the jobs in IT (because programming isn't the only skill we're
     <footer>
     <section>
         <nav class="socials nav-navs">
+                <ul>
+                    
+                    
+                    
+                    <li>
+                        <a class="nav-links no-hover-padding social" rel=""  href=https://reverse.codes/atom.xml>
+                        <img alt="feed" title="feed" src="https://reverse.codes/social_icons/rss.svg">
+                        </a>
+                    </li><li class="js"><a class="nav-links no-hover-padding social" href="#" data-encoded-email="c2Vza2E0NTFAcG0ubWU="><img alt="email" title="email" src="https://reverse.codes/social_icons/email.svg">
+                            </a>
+                        </li>
+                </ul>
+            
         </nav>
 
         
@@ -400,7 +424,7 @@ aren't taking all the jobs in IT (because programming isn't the only skill we're
         </div>
     </section>
 
-    <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <script src="https://reverse.codes/js/decodeMail.min.js" async></script><div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
     <h1 id="modalTitle" class="visually-hidden">Search</h1>
     <div id="modal-content">
         <div id="searchBar">

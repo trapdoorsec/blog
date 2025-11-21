@@ -26,10 +26,10 @@
         <lastmod>2024-08-26</lastmod>
     </url>
     <url>
-        <loc>https://reverse.codes/projects/</loc>
+        <loc>https://reverse.codes/project/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/projects/rinzler/</loc>
+        <loc>https://reverse.codes/project/rinzler/</loc>
     </url>
     <url>
         <loc>https://reverse.codes/tags/</loc>
@@ -51,5 +51,8 @@
     </url>
     <url>
         <loc>https://reverse.codes/tags/secure-by-default/</loc>
+    </url>
+    <url>
+        <loc>https://reverse.codes/walkthrough/</loc>
     </url>
 </urlset>

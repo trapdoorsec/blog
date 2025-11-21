@@ -12,7 +12,7 @@ theme = "tabi"
 
 title = "{REVEЯSE CODES}"
 
-author = "J. Burger"
+author = "seska"
 
 generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
@@ -40,3 +40,11 @@ stylesheets = ["/css/fontawesome.css", "/css/brands.css", "/css/solid.css"]
 favicon = "/img/favicon.png"
 show_remote_source = true
 remote_repository_url = "https://github.com/seska451/blog"
+menu  = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "projects", url = "project", trailing_slash = true },
+    { name = "walkthroughs", url = "walkthrough", trailing_slash = true }
+]
+email = "c2Vza2E0NTFAcG0ubWU="

@@ -11,20 +11,20 @@
       <item>
           <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
           <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-          <author>J. Burger</author>
+          <author>seska</author>
           <link>https://reverse.codes/blog/the-cost-of-complacency/</link>
           <guid>https://reverse.codes/blog/the-cost-of-complacency/</guid>
           <description xml:base="https://reverse.codes/blog/the-cost-of-complacency/">&lt;p&gt;In an era where cyber threats loom larger than ever, being a good global citizen means prioritizing not just functional
 software but also security by design. &lt;em&gt;Security is an expected function.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;stock-secure-lock-jpeg&quot;&gt;&lt;img src=&quot;&#x2F;img&#x2F;stock-lock.jpeg&quot; alt=&quot;stock-secure_lock.jpeg&quot; &#x2F;&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;stock-image-of-a-lock-being-damaged-using-ice&quot;&gt;&lt;img src=&quot;&#x2F;img&#x2F;stock-lock.jpeg&quot; alt=&quot;stock image of a lock being damaged using ice&quot; &#x2F;&gt;&lt;&#x2F;h2&gt;
 &lt;h1 id=&quot;software-isn-t-difficult-humans-are&quot;&gt;Software isn&#x27;t difficult, humans are.&lt;&#x2F;h1&gt;
 &lt;p&gt;You know that overused &lt;a href=&quot;https:&#x2F;&#x2F;martinfowler.com&#x2F;bliki&#x2F;TwoHardThings.html&quot;&gt;joke in software circles&lt;&#x2F;a&gt; about there being two
 hard things? Well, one of those things, &#x27;naming things&#x27; I feel extends to &lt;em&gt;defining things&lt;&#x2F;em&gt;, because this is where software&#x27;s
 value actually lies: the interpretation and delivery of human requirements, which are notoriously difficult to pinpoint sometimes.&lt;&#x2F;p&gt;
 &lt;p&gt;Example time, &quot;Make the car drive autonomously&quot; might look like a requirement to the average person, but in fact it is more of a &lt;em&gt;desirement&lt;&#x2F;em&gt;
 because it doesn&#x27;t adequately express the complexities involved such that two different designs would both meet
-a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh it&#x27;s country
-dependant? How will it know, oh so it needs GPS. Right. What if that fails? *&lt;&#x2F;p&gt;
+a standard. Did you mean safely? What does that mean? Should it drive on the left or the right side of the road? Oh, it&#x27;s country
+dependent? How will it know, oh, so it needs GPS. Right. What if that fails? *&lt;&#x2F;p&gt;
 &lt;p&gt;So we need to understand, that to a product team, saying &#x27;secure by default plzkthxbai&#x27; is really just a way of being annoying and 100%
 non-constructive. They &lt;em&gt;know&lt;&#x2F;em&gt; it&#x27;s a good idea, just... how?&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;why-do-we-even-care-about-secure-by-default&quot;&gt;Why do we even care about secure by default?&lt;&#x2F;h1&gt;
@@ -32,12 +32,12 @@ non-constructive. They &lt;em&gt;know&lt;&#x2F;em&gt; it&#x27;s a good idea, jus
 to lean into the fact that I&#x27;m a grumpy old man and tell the war stories again.&lt;&#x2F;p&gt;
 &lt;p&gt;Reality is though, people clutch their pearls every time something awful happens, but nothing materially changes the status quo.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-morris-worm-incident&quot;&gt;The Morris Worm incident&lt;&#x2F;h2&gt;
-&lt;p&gt;In 1988, an enterprising young student named Robert created what he thought was a harmless experiment to measure the size of
-... um... the internet.&lt;&#x2F;p&gt;
+&lt;p&gt;In 1988, an enterprising young student named Robert created what he thought was a harmless experiment, presumably, to measure the size of
+... um... the Internet. (Morris is reported to have stated that he only did it to see if it could be done.)&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.vice.com&#x2F;wp-content&#x2F;uploads&#x2F;sites&#x2F;2&#x2F;2017&#x2F;10&#x2F;1508840382333-robert-morris-primo-worm.jpeg&quot; alt=&quot;Robert Morris relaxing at his computer drinking a coke&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;However, His program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: &lt;code&gt;sendmail&lt;&#x2F;code&gt; - a Unix program.&lt;&#x2F;p&gt;
+&lt;p&gt;However, his program relied on a default password and a buffer overflow vulnerability in the canonical email service of the day: &lt;code&gt;sendmail&lt;&#x2F;code&gt; - a Unix program.&lt;&#x2F;p&gt;
 &lt;p&gt;He designed a self replication component to his program, and before he could say &#x27;off by one error&#x27; he had infected around 10% of
-the internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.&lt;&#x2F;p&gt;
+the Internets servers at the time (approx 6000 machines), and caused millions of dollars damage in lost productivity.&lt;&#x2F;p&gt;
 &lt;p&gt;This moment was pretty significant, in that it hadn&#x27;t really happened on this scale before, but it also perfectly demonstrates
 why having insecure defaults opens us up to one of the nastiest types of malware: the worm - a self replicating program
 capable of spreading itself without user interactions.&lt;&#x2F;p&gt;
@@ -45,7 +45,7 @@ capable of spreading itself without user interactions.&lt;&#x2F;p&gt;
 &lt;p&gt;Another example: we used to be OK with Windows Server 2003 leaving port 445 (SMB protocol) open on install. Code Red made
 especially good use of this fact - some of you will remember - their cyberattack of 2001 which targeted another default
 configuration in IIS (open port 80). 24 hours, 350000 servers brought to their knees, billions in lost productivity. (Moore, Shannon, Klaffy 2002)&lt;&#x2F;p&gt;
-&lt;p&gt;You can see where the product design decisions come from: make the internet easy to play with! Make networking easy! Minimize the clicks
+&lt;p&gt;You can see where the product design decisions come from: make the Internet easy to play with! Make networking easy! Minimize the clicks
 a server admin needs to take in order to &#x27;get online&#x27;! All laudable, money making ideas. Entirely insecure.&lt;&#x2F;p&gt;
 &lt;p&gt;Alas, these weren&#x27;t entirely addressed until 5 years later, in Windows Server 2008 as Microsoft now had the &#x27;very insecure&#x27;
 label that they probably wanted to shake.&lt;&#x2F;p&gt;
@@ -61,7 +61,7 @@ So, none of the impacts where so bad that humanity cancelled them from all relev
 breach and Crowdstrike outages of late. Go have a look at Crowdstrike share price, I dare you.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;CRWD-stock-price.png&quot; alt=&quot;CRWD stock price showing their almost immediate recovery from perhaps the biggest outage in IT history&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Now look at Equifax.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;EFX-stock-price.png&quot; alt=&quot;EFX stock price showing their continued rise in value since a massice databreach in 2017&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;EFX-stock-price.png&quot; alt=&quot;EFX stock price showing their continued rise in value since a massive databreach in 2017&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;It would seem that lost productivity makes for a good (bad?) news story, but as a society, I don&#x27;t think we value it as much as
 journalists would have you believe. &lt;strong&gt;Surely, we move to fix things all-proper-like when people die though, right?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Right?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
@@ -78,7 +78,7 @@ to purchase a device, much of the software you need to make your life easier is 
 I mean governments doing the regulation bit. And this will make everything more expensive.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;where-businesses-fail-to-act-governments-step-in&quot;&gt;Where businesses fail to act, governments step in&lt;&#x2F;h1&gt;
 &lt;p&gt;Remember when cars didn&#x27;t have seat belts? OK, so I don&#x27;t either, but that was a big issue in the 60s, people were dying enough that &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vTnWMnLJqT8&quot;&gt;Ralph Nader wrote a book about it&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;That led to loads of litigation and then government regulation, and finally, a massive increase in saftey.&lt;&#x2F;p&gt;
+&lt;p&gt;That led to loads of litigation and then government regulation, and finally, a massive increase in safety.&lt;&#x2F;p&gt;
 &lt;p&gt;It also added well over 10% to the price of a car, depending on what sources you refer to. Could businesses have avoided this? Could cars have been cheaper and safer?&lt;&#x2F;p&gt;
 &lt;p&gt;So given the above, in my opinion, tech companies will have their &#x27;Ralph Nader&#x27; moment in the future, and until then, things aren&#x27;t likely to change.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;the-us-government-is-actually-doing-something-meaningful-to-prevent-the-repeat-of-history&quot;&gt;The US Government is actually doing something meaningful to prevent the repeat of history&lt;&#x2F;h1&gt;
@@ -87,7 +87,7 @@ a government (that I&#x27;m aware of, at least), that tries to properly define &
 &lt;p&gt;The subtext is often missed though. CISA is trying to give us all a massive hint: &quot;start doing these things before we force you to do them.&quot;
 They know that the lawsuits are coming, &lt;a href=&quot;https:&#x2F;&#x2F;www.sec.gov&#x2F;newsroom&#x2F;press-releases&#x2F;2023-139&quot;&gt;governments are even enabling them&lt;&#x2F;a&gt;, as one of the biggest customers of technology, this makes perfect sense.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;what-if-we-adopted-the-cisa-recommendations-then&quot;&gt;What if we adopted the CISA recommendations then...&lt;&#x2F;h1&gt;
-&lt;p&gt;Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thankyou, for trying to
+&lt;p&gt;Alright, so you want to be a good global citizen and make software that is secure by design? First up. Thank you, for trying to
 play the long game, and make software cheaper for everyone by raising the bar and customers expectations!&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;There is no single solution to end the persistent threat of malicious
@@ -119,7 +119,7 @@ Secure by default is a form of secure by design&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Security should not be a luxury option, but
-should be considered a right customers receive
+should be considered a right [that] customers receive
 without negotiating or paying more.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Honestly, there are so many good reasons to read this paper, just do it.&lt;&#x2F;p&gt;
@@ -146,14 +146,15 @@ to their company.&lt;&#x2F;p&gt;
 &lt;li&gt;Meet a baseline of Cybersecurity Performance Goals, which are too numerous to mention in this article, &lt;a href=&quot;https:&#x2F;&#x2F;www.cisa.gov&#x2F;cross-sector-cybersecurity-performance-goals&quot;&gt;use this link as reference instead&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h1 id=&quot;at-what-cost&quot;&gt;At what cost?&lt;&#x2F;h1&gt;
-&lt;p&gt;Yes, that&#x27;s right. But if you properly consider history, every time we have a &#x27;black swan&#x27; event your customers governments
-are more likely to react with legislation. If you simply build like this today, you amortize that cost over the course of years, not months.&lt;&#x2F;p&gt;
+&lt;p&gt;Every time we have a &#x27;black swan&#x27; event your customers governments are more likely to react with legislation.
+If you simply build like this today, you amortize that cost over the course of years, not months. A recent estimate puts this
+cost in the US at &quot;$300 billion annually, only $53 billion less than firms spend on corporate income taxes.&quot; (T)&lt;&#x2F;p&gt;
 &lt;p&gt;Your customers and investors probably won&#x27;t notice immediately, but when your competitors jack their prices up, you&#x27;ll be smugly pointing to all the good work you did
 over the past few years and reaping the churn.&lt;&#x2F;p&gt;
 &lt;p&gt;History shows us that without proactive measures from within, industries often face stringent external regulations. By adopting CISA’s 2023 recommendations now, technology companies can not only avert crises but also pave the way for a safer digital future. It’s not just about avoiding penalties—it’s about leading the charge towards a more secure world. What steps will you take to ensure your products are secure by design?&lt;&#x2F;p&gt;
 &lt;p&gt;Final thought, consider &lt;a href=&quot;https:&#x2F;&#x2F;www.theregreview.org&#x2F;2024&#x2F;02&#x2F;28&#x2F;hoguet-estimating-the-impact-of-regulation-on-business&#x2F;&quot;&gt;how much government regulation costs other industries&lt;&#x2F;a&gt;
 and start factoring it into your strategic thinking, today. Because the warning shots have been fired.&lt;&#x2F;p&gt;
-&lt;p&gt;*- Complete aside: &lt;em&gt;In the authors opinion, this is why, time and time again, &#x27;no code&#x27; solutions fail to live up to expectations (because they produce
+&lt;p&gt;*- Complete aside: &lt;em&gt;In the author&#x27;s opinion, this is why, time and time again, &#x27;no code&#x27; solutions fail to live up to expectations (because they produce
 an unmaintainable mess that defies to be safely modified) and, why the armies of new wave AI-only &#x27;programmers&#x27;
 aren&#x27;t taking all the jobs in IT (because programming isn&#x27;t the only skill we&#x27;re hiring for here).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;references&quot;&gt;References&lt;&#x2F;h1&gt;
@@ -162,16 +163,19 @@ aren&#x27;t taking all the jobs in IT (because programming isn&#x27;t the only s
 &lt;li&gt;https:&#x2F;&#x2F;www.wired.com&#x2F;2002&#x2F;01&#x2F;find-the-cost-of-virus-freedom&#x2F;&lt;&#x2F;li&gt;
 &lt;li&gt;Code-red: case study on the spread and victims of an internet worm, D. Moore, C. Shannon, K. Claffy, https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;637201.637244&lt;&#x2F;li&gt;
 &lt;li&gt;The Internet Worm Program: An Analysis, Eugene H. Spafford, 1988 https:&#x2F;&#x2F;spaf.cerias.purdue.edu&#x2F;tech-reps&#x2F;823.pdf&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;x.com&#x2F;paulg&#x2F;status&#x2F;1323246618326507524&lt;&#x2F;li&gt;
 &lt;li&gt;https:&#x2F;&#x2F;www.theregister.com&#x2F;2024&#x2F;08&#x2F;14&#x2F;august_patch_tuesday_ipv6&#x2F;&lt;&#x2F;li&gt;
 &lt;li&gt;https:&#x2F;&#x2F;www.cisa.gov&#x2F;resources-tools&#x2F;resources&#x2F;secure-by-design&lt;&#x2F;li&gt;
 &lt;li&gt;https:&#x2F;&#x2F;www.sec.gov&#x2F;newsroom&#x2F;press-releases&#x2F;2023-139&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;www.theregreview.org&#x2F;2024&#x2F;02&#x2F;28&#x2F;hoguet-estimating-the-impact-of-regulation-on-business&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;https:&#x2F;&#x2F;obamawhitehouse.archives.gov&#x2F;omb&#x2F;inforeg_intro&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </description>
       </item>
       <item>
           <title>Australian Cybersecurity Act proposals Q3 2024</title>
           <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-          <author>J. Burger</author>
+          <author>seska</author>
           <link>https://reverse.codes/blog/cyber-security-act-q3-2024/</link>
           <guid>https://reverse.codes/blog/cyber-security-act-q3-2024/</guid>
           <description xml:base="https://reverse.codes/blog/cyber-security-act-q3-2024/">&lt;p&gt;The Aussie Government is looking towards transparency over ransomware payments and appears to have landed on a mandatory reporting scheme.&lt;&#x2F;p&gt;
@@ -212,24 +216,24 @@ there is an opportunity for looking at the impact of technology availability in 
       <item>
           <title>About the Author</title>
           <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-          <author>J. Burger</author>
+          <author>seska</author>
           <link>https://reverse.codes/blog/about-me/</link>
           <guid>https://reverse.codes/blog/about-me/</guid>
           <description xml:base="https://reverse.codes/blog/about-me/">&lt;p&gt;👋 Thanks for stopping by, I hope you find this blog valuable in some way. 🙏&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;me.png&quot; alt=&quot;A picture of me circa 2021&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;seska.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I started my career in IT as a junior software programmer way back in the olden days (1999). This turned into web application
 development, then application security roles, and I now find myself in cybersecurity governance, risk management &amp;amp; compliance,
-and leadership positions.&lt;&#x2F;p&gt;
+and leadership positions. For as long as I can remember, in my spare time I&#x27;ve been hacking into and reverse engineering things.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ve seen a lot of things change and a lot of things stay the same over the years. I mainly write about the technologies I&#x27;ve learned,
 or ideas I&#x27;ve come across.&lt;&#x2F;p&gt;
 &lt;p&gt;🕵️ In case you&#x27;re curious, I&#x27;ll save you some OSINT legwork. LinkedIn leaked most of it back in 2021 so you may
 as well read it here anyway.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-mastodon&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Mastodon&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&quot;&gt;https:&#x2F;&#x2F;infosec.exchange&#x2F;@jiim&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Twitter&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;0x7365736B61&quot;&gt;https:&#x2F;&#x2F;x.com&#x2F;0x7365736B61&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-bluesky&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Bluesky&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;s-e-s-k-a.bsky.social&quot;&gt;https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;s-e-s-k-a.bsky.social&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-github&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Github&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.github.com&#x2F;seska451&quot;&gt;https:&#x2F;&#x2F;www.github.com&#x2F;seska451&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-cube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Hackthebox&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&quot;&gt;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-youtube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;YT&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@reverse-codes&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;@reverse-codes&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-mug-hot&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;ko-fi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;☕ If you do happen to find something worth supporting here, I&#x27;d really appreciate it! The best way to do this is to
 &lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;donate a coffee&lt;&#x2F;a&gt; to let me know to keep at it.&lt;&#x2F;p&gt;

@@ -224,10 +224,7 @@ favicon_emoji = "🌱"
 social_media_card = "social_cards/index.jpg"
 
 menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "projects", url = "projects", trailing_slash = true },
+    
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
@@ -242,7 +239,7 @@ full_content_in_feed = false
 # Protect against spambots:
 # 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
 # 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
-email = "dGFiaUBvc2MuZ2FyZGVu"
+
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
 encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
