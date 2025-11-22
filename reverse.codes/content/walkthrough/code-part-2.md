@@ -78,7 +78,7 @@ The SSH server is configured with some old and insecure algorithms. This can be 
 ```
 
 ### Port 8000 (HTTP - Gunicorn/20.0.4)
-The web application running on port 8000 does look promising for exploitation: the website source is downloadable and it appears that a registered user can simply run arbitrary javascript in the browser. The source code for the website is also freely available for download.
+The web application running on port 8000 does look promising for exploitation, a registered user can simply run arbitrary javascript in the browser. The source code for the website is also freely available for download.
 
 ![](codeparttwo-port-8000.png)
 ### Source code analysis

@@ -65,7 +65,7 @@
 &lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-redirection z-shell&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;SNIP&lt;span class=&quot;z-keyword z-operator z-assignment z-redirection z-shell&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;h3 id=&quot;port-8000-http-gunicorn-20-0-4&quot;&gt;Port 8000 (HTTP - Gunicorn&#x2F;20.0.4)&lt;&#x2F;h3&gt;
-&lt;p&gt;The web application running on port 8000 does look promising for exploitation: the website source is downloadable and it appears that a registered user can simply run arbitrary javascript in the browser. The source code for the website is also freely available for download.&lt;&#x2F;p&gt;
+&lt;p&gt;The web application running on port 8000 does look promising for exploitation, a registered user can simply run arbitrary javascript in the browser. The source code for the website is also freely available for download.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;reverse.codes&#x2F;walkthrough&#x2F;code-part-2&#x2F;codeparttwo-port-8000.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;source-code-analysis&quot;&gt;Source code analysis&lt;&#x2F;h3&gt;
 &lt;p&gt;By parsing the requirements.txt in the source supplied we find a flask 3.0.3 application and an app secret in the source code:&lt;&#x2F;p&gt;
