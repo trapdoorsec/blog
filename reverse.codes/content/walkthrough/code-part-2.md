@@ -37,21 +37,9 @@ Welcome back to another CTF write-up for practicing penetration testing and repo
 `CodePartTwo` is an easy level Ubuntu Linux box hosted on the hackthebox platform, hosting a developer centric website. This CTF teaches the importance of keeping libraries up to date, avoiding allowing untrusted users to run code on your infrastructure, even when you've tried to sandbox them.
 
 ## Executive summary
-`CodePartTwo` is vulnerable to a sandbox escape [CVE-2024-28397](https://nvd.nist.gov/vuln/detail/CVE-2024-28397) leading to remote code execution on t the server as the `app` user. This allows an attacker to access the application database which contains a raw MD5 hash for another user `marco`. This password is both crackable in under a minute on modern hardware, and is reused as the SSH password for `marco`. Further, despite `marco` being a low privilege user, they are allowed to run `npbackup-cli` as the superuser.
+`CodePartTwo` is vulnerable to a sandbox escape [CVE-2024-28397](https://nvd.nist.gov/vuln/detail/CVE-2024-28397) leading to remote code execution on the server as the `app` user. This allows an attacker to access the application database which contains a raw MD5 hash for another user `marco`. This password is both crackable in under a minute on modern hardware, and is reused as the SSH password for `marco`. Further, despite `marco` being a low privilege user, they are allowed to run `npbackup-cli` as the superuser.
 
 Unfortunately this CLI tool can be configured to read and write to the root filesystem allowing a low privileged user to acces the `root` SSH private key, _which is passwordless_, and gain full access to the box.
-
-### Suggested remediations
-
-1. Maintain regular patching of code libraries and dependencies in the web application
-2. Reconsider allowing code execution directly against the webserver host via the website, apply segregation of responsibility to the application architecure, e.g. use of epehermeral execution environments that cannot access the webserver host.
-3. Ensure passwords are strong and not reused between applications and services. Always use password protected certificates for all privileged access (e.g. via SSH, databases, etc)
-4. Avoid manual backup procedures that rely on low privileged users having elevated privilege. Consider a seperate backup server with RBAC to prevent unauthorized access to the webservers root filesystem.
-
-# My review: 4 stars
-
-I enjoyed this box as it was simple and somewhat realistic - developer tooling has historically been a problematic area because of the need to run as administrator on workstations, and CI/CD tooling needing to allow remote arbitrary code excetion as a feature. Normally this would be considered a security flaw - not a feature! So the owners of these tools need to be extremely careful about sandboxing the environment that allows untrusted input.
- I deducted a star because the premise of the box is still reasonably contrived and this makes the foothold a little bit too easy in my opinion, there aren't too many good reasons to allow a remote user to execute random javascript on your environment, and it just demands attention from would be attackers.
 
 # Testing Method
 
@@ -266,3 +254,14 @@ root@codeparttwo:~# cat root.txt
 09cd485933fb29e34fefb7f5a9ea00d8
 ```
 ![](codeparttwo-pwnd.png)
+# Suggested remediations
+
+1. Maintain regular patching of code libraries and dependencies in the web application
+2. Reconsider allowing code execution directly against the webserver host via the website, apply segregation of responsibility to the application architecure, e.g. use of epehermeral execution environments that cannot access the webserver host.
+3. Ensure passwords are strong and not reused between applications and services. Always use password protected certificates for all privileged access (e.g. via SSH, databases, etc)
+4. Avoid manual backup procedures that rely on low privileged users having elevated privilege. Consider a seperate backup server with RBAC to prevent unauthorized access to the webservers root filesystem.
+
+# My review: 4 stars
+
+I enjoyed this box as it was simple and somewhat realistic - developer tooling has historically been a problematic area because of the need to run as administrator on workstations, and CI/CD tooling needing to allow remote arbitrary code excetion as a feature. Normally this would be considered a security flaw - not a feature! So the owners of these tools need to be extremely careful about sandboxing the environment that allows untrusted input.
+ I didn't give it 5 stars because I think that the scenario is a little contrived and it would be (IMO) more interesting to explore a box that attempted to give this feature to others with some more thought given to the architecture. Given 'code' part one used docker containers (if I recall correctly), this approach seems like a regression rather than an improved architecture.  
