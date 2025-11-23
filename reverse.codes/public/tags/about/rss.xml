@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title>{REVEЯSE CODES} - about</title>
-      <link>https://reverse.codes</link>
+      <title>{TRAPDOOЯ SECURITY} - about</title>
+      <link>https://trapdoorsec.com</link>
       <description></description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="https://reverse.codes/tags/about/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://trapdoorsec.com/tags/about/rss.xml" rel="self" type="application/rss+xml"/>
       <lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
       <item>
           <title>About the Author</title>
           <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
           <author>seska</author>
-          <link>https://reverse.codes/blog/about-me/</link>
-          <guid>https://reverse.codes/blog/about-me/</guid>
-          <description xml:base="https://reverse.codes/blog/about-me/">&lt;p&gt;👋 Thanks for stopping by, I hope you find this blog valuable in some way. 🙏&lt;&#x2F;p&gt;
+          <link>https://trapdoorsec.com/blog/about-me/</link>
+          <guid>https://trapdoorsec.com/blog/about-me/</guid>
+          <description xml:base="https://trapdoorsec.com/blog/about-me/">&lt;p&gt;👋 Thanks for stopping by, I hope you find this blog valuable in some way. 🙏&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;seska.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I started my career in IT as a junior software programmer way back in the olden days (1999). This turned into web application
 development, then application security roles, and I now find myself in cybersecurity governance, risk management &amp;amp; compliance,
@@ -28,7 +28,7 @@ as well read it here anyway.&lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-bluesky&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Bluesky&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;s-e-s-k-a.bsky.social&quot;&gt;https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;s-e-s-k-a.bsky.social&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-github&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Github&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.github.com&#x2F;seska451&quot;&gt;https:&#x2F;&#x2F;www.github.com&#x2F;seska451&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-solid fa-cube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Hackthebox&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&quot;&gt;https:&#x2F;&#x2F;app.hackthebox.com&#x2F;profile&#x2F;68877&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-youtube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;YT&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@reverse-codes&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;@reverse-codes&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;i class=&quot;fa-brands fa-youtube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;YT&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@trapdoorsec&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;@trapdoorsec&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;☕ If you do happen to find something worth supporting here, I&#x27;d really appreciate it! The best way to do this is to
 &lt;a href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;seska&quot;&gt;donate a coffee&lt;&#x2F;a&gt; to let me know to keep at it.&lt;&#x2F;p&gt;

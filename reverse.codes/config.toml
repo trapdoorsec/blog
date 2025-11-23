@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://reverse.codes"
+base_url = "https://trapdoorsec.com"
 default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -10,7 +10,7 @@ build_search_index = true
 
 theme = "tabi"
 
-title = "{REVEЯSE CODES}"
+title = "{TRAPDOOЯ SECURITY}"
 
 author = "seska"
 

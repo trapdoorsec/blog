@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="https://reverse.codes/feed_style.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;reverse.codes">
+<?xml-stylesheet href="https://trapdoorsec.com/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;trapdoorsec.com">
     <str:translations xmlns:str="https://github.com/welpo/tabi">
         <str:separator>
             •
@@ -10,21 +10,21 @@
         <str:recent_posts>Recent posts</str:recent_posts>
         <str:last_updated_on>Updated on $DATE</str:last_updated_on>
         <str:default_theme></str:default_theme>
-    </str:translations><title>{REVEЯSE CODES}</title>
-    <link href="https://reverse.codes/atom.xml" rel="self" type="application/atom+xml"/>
+    </str:translations><title>{TRAPDOOЯ SECURITY}</title>
+    <link href="https://trapdoorsec.com/atom.xml" rel="self" type="application/atom+xml"/>
     <post_listing_date>date</post_listing_date>
-    <link href="https://reverse.codes"/>
+    <link href="https://trapdoorsec.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-11-22T00:00:00+00:00</updated>
-    <id>https://reverse.codes/atom.xml</id><entry xml:lang="en">
+    <id>https://trapdoorsec.com/atom.xml</id><entry xml:lang="en">
         <title>HTB Walkthrough: CodePartTwo</title>
         <published>2025-11-22T00:00:00+00:00</published>
         <updated>2025-11-22T00:00:00+00:00</updated>
         <author>
             <name>seska</name>
         </author>
-        <link rel="alternate" href="https://reverse.codes/walkthrough/code-part-2/" type="text/html"/>
-        <id>https://reverse.codes/walkthrough/code-part-2/</id>
+        <link rel="alternate" href="https://trapdoorsec.com/walkthrough/code-part-2/" type="text/html"/>
+        <id>https://trapdoorsec.com/walkthrough/code-part-2/</id>
         </entry><entry xml:lang="en">
         <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
         <published>2024-08-26T00:00:00+00:00</published>
@@ -32,8 +32,8 @@
         <author>
             <name>seska</name>
         </author>
-        <link rel="alternate" href="https://reverse.codes/blog/the-cost-of-complacency/" type="text/html"/>
-        <id>https://reverse.codes/blog/the-cost-of-complacency/</id>
+        <link rel="alternate" href="https://trapdoorsec.com/blog/the-cost-of-complacency/" type="text/html"/>
+        <id>https://trapdoorsec.com/blog/the-cost-of-complacency/</id>
         </entry><entry xml:lang="en">
         <title>Australian Cybersecurity Act proposals Q3 2024</title>
         <published>2024-07-30T00:00:00+00:00</published>
@@ -41,8 +41,8 @@
         <author>
             <name>seska</name>
         </author>
-        <link rel="alternate" href="https://reverse.codes/blog/cyber-security-act-q3-2024/" type="text/html"/>
-        <id>https://reverse.codes/blog/cyber-security-act-q3-2024/</id>
+        <link rel="alternate" href="https://trapdoorsec.com/blog/cyber-security-act-q3-2024/" type="text/html"/>
+        <id>https://trapdoorsec.com/blog/cyber-security-act-q3-2024/</id>
         </entry><entry xml:lang="en">
         <title>About the Author</title>
         <published>1999-01-01T00:00:00+00:00</published>
@@ -50,7 +50,7 @@
         <author>
             <name>seska</name>
         </author>
-        <link rel="alternate" href="https://reverse.codes/blog/about-me/" type="text/html"/>
-        <id>https://reverse.codes/blog/about-me/</id>
+        <link rel="alternate" href="https://trapdoorsec.com/blog/about-me/" type="text/html"/>
+        <id>https://trapdoorsec.com/blog/about-me/</id>
         </entry>
 </feed>

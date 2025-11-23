@@ -25,7 +25,7 @@ as well read it here anyway.
 | <i class="fa-brands fa-bluesky"></i> | Bluesky   | [https://bsky.app/profile/s-e-s-k-a.bsky.social](https://bsky.app/profile/s-e-s-k-a.bsky.social)                    |
 | <i class="fa-brands fa-github"></i>   | Github     | [https://www.github.com/seska451](https://www.github.com/seska451)                   |
 | <i class="fa-solid fa-cube"></i>      | Hackthebox | [https://app.hackthebox.com/profile/68877](https://app.hackthebox.com/profile/68877) |
-| <i class="fa-brands fa-youtube"></i>  | YT         | [https://www.youtube.com/@reverse-codes](https://www.youtube.com/@reverse-codes)     |
+| <i class="fa-brands fa-youtube"></i>  | YT         | [https://www.youtube.com/@trapdoorsec](https://www.youtube.com/@trapdoorsec)     |
 
 :coffee: If you do happen to find something worth supporting here, I'd really appreciate it! The best way to do this is to
 [donate a coffee](https://ko-fi.com/seska) to let me know to keep at it.

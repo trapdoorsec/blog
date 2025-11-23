@@ -1,11 +1,11 @@
-﻿# Reverse Codes Channel Intro & Subscribe Scripts
+﻿# Trapdoor Security Channel Intro & Subscribe Scripts
 
 ## **PRIMARY CHANNEL INTRO (15-20 seconds)**
 
 ### **Option A: Technical & Direct**
 *[Show logo animation, binary code flowing in background]*
 
-**"Welcome back to Reverse Codes, where we tear apart the digital world to see what makes it tick. I'm [Your Name], and today we're diving deep into [topic]. Whether you're here for reverse engineering tutorials, cybersecurity incident breakdowns, or just love seeing how malware actually works, you're in the right place."**
+**"Welcome back to Trapdoor Security, where we tear apart the digital world to see what makes it tick. I'm [Your Name], and today we're diving deep into [topic]. Whether you're here for reverse engineering tutorials, cybersecurity incident breakdowns, or just love seeing how malware actually works, you're in the right place."**
 
 *[Quick montage of previous content: disassemblers, code analysis, incident timelines]*
 
@@ -14,7 +14,7 @@
 ### **Option B: Story-Focused (For Incident Videos)**
 *[Dark background, dramatic lighting on logo]*
 
-**"Welcome to Reverse Codes - the channel where we reconstruct digital disasters and decode the attacks that changed cybersecurity forever. I'm [Your Name], and I believe that understanding how systems fail is the key to making them stronger."**
+**"Welcome to Trapdoor Security - the channel where we reconstruct digital disasters and decode the attacks that changed cybersecurity forever. I'm [Your Name], and I believe that understanding how systems fail is the key to making them stronger."**
 
 *[Show snippet of previous incident reconstruction]*
 
@@ -23,7 +23,7 @@
 ### **Option C: Educational Angle**
 *[Clean, professional look with code snippets]*
 
-**"This is Reverse Codes - your go-to source for deep technical analysis of cybersecurity incidents and reverse engineering techniques. I'm [Your Name], and my mission is simple: take complex attacks and break them down so you can understand exactly how they worked and how to defend against them."**
+**"This is Trapdoor Security - your go-to source for deep technical analysis of cybersecurity incidents and reverse engineering techniques. I'm [Your Name], and my mission is simple: take complex attacks and break them down so you can understand exactly how they worked and how to defend against them."**
 
 *[Show tools, code analysis, learning progression]*
 

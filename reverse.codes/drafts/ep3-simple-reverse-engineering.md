@@ -1,4 +1,4 @@
-﻿# Reverse Engineering a Password Checker | Complete Methodology Walkthrough
+# Reverse Engineering a Password Checker | Complete Methodology Walkthrough
 
 ## **HOOK (0-15 seconds)**
 *[Show binary executable on desktop, mysterious and intimidating]*
@@ -14,7 +14,7 @@ But in the next 15 minutes, I'm going to show you how to extract the password fr
 
 *[Show channel intro]*
 
-**"Welcome to the Reverse Codes channel folks. Seska here, and today we're going to make use of the virtual machine that 
+**"Welcome to the Trapdoor Security channel folks. Seska here, and today we're going to make use of the virtual machine that 
 we setup to take our first baby steps into the binary reverse engineering process."**
 
 *[Show the challenge setup - generic password checker]*

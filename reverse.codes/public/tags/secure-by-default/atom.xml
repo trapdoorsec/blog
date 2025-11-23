@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="https://reverse.codes/feed_style.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;reverse.codes">
+<?xml-stylesheet href="https://trapdoorsec.com/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;trapdoorsec.com">
     <str:translations xmlns:str="https://github.com/welpo/tabi">
         <str:separator>
             •
@@ -10,20 +10,20 @@
         <str:recent_posts>Recent posts</str:recent_posts>
         <str:last_updated_on>Updated on $DATE</str:last_updated_on>
         <str:default_theme></str:default_theme>
-    </str:translations><title>{REVEЯSE CODES} - secure by default</title>
-    <link href="https://reverse.codes/tags/secure-by-default/atom.xml" rel="self" type="application/atom+xml"/>
+    </str:translations><title>{TRAPDOOЯ SECURITY} - secure by default</title>
+    <link href="https://trapdoorsec.com/tags/secure-by-default/atom.xml" rel="self" type="application/atom+xml"/>
     <post_listing_date>date</post_listing_date>
-    <link href="https://reverse.codes"/>
+    <link href="https://trapdoorsec.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2024-08-26T00:00:00+00:00</updated>
-    <id>https://reverse.codes/tags/secure-by-default/atom.xml</id><entry xml:lang="en">
+    <id>https://trapdoorsec.com/tags/secure-by-default/atom.xml</id><entry xml:lang="en">
         <title>The Cost of Complacency: Why &#x27;Secure by Default&#x27; Isn&#x27;t Just Nice to Have.</title>
         <published>2024-08-26T00:00:00+00:00</published>
         <updated>2024-08-26T00:00:00+00:00</updated>
         <author>
             <name>seska</name>
         </author>
-        <link rel="alternate" href="https://reverse.codes/blog/the-cost-of-complacency/" type="text/html"/>
-        <id>https://reverse.codes/blog/the-cost-of-complacency/</id>
+        <link rel="alternate" href="https://trapdoorsec.com/blog/the-cost-of-complacency/" type="text/html"/>
+        <id>https://trapdoorsec.com/blog/the-cost-of-complacency/</id>
         </entry>
 </feed>

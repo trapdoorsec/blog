@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://reverse.codes/sitemap_style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="https://trapdoorsec.com/sitemap_style.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://reverse.codes/</loc>
+        <loc>https://trapdoorsec.com/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/archive/</loc>
+        <loc>https://trapdoorsec.com/archive/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/blog/</loc>
+        <loc>https://trapdoorsec.com/blog/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/blog/about-me/</loc>
+        <loc>https://trapdoorsec.com/blog/about-me/</loc>
         <lastmod>1999-01-01</lastmod>
     </url>
     <url>
-        <loc>https://reverse.codes/blog/cyber-security-act-q3-2024/</loc>
+        <loc>https://trapdoorsec.com/blog/cyber-security-act-q3-2024/</loc>
         <lastmod>2024-07-30</lastmod>
     </url>
     <url>
-        <loc>https://reverse.codes/blog/page/1/</loc>
+        <loc>https://trapdoorsec.com/blog/page/1/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/blog/the-cost-of-complacency/</loc>
+        <loc>https://trapdoorsec.com/blog/the-cost-of-complacency/</loc>
         <lastmod>2024-08-26</lastmod>
     </url>
     <url>
-        <loc>https://reverse.codes/project/</loc>
+        <loc>https://trapdoorsec.com/project/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/project/rinzler/</loc>
+        <loc>https://trapdoorsec.com/project/rinzler/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/</loc>
+        <loc>https://trapdoorsec.com/tags/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/about/</loc>
+        <loc>https://trapdoorsec.com/tags/about/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/cybersecurity/</loc>
+        <loc>https://trapdoorsec.com/tags/cybersecurity/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/htb/</loc>
+        <loc>https://trapdoorsec.com/tags/htb/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/legislation/</loc>
+        <loc>https://trapdoorsec.com/tags/legislation/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/penetration-testing/</loc>
+        <loc>https://trapdoorsec.com/tags/penetration-testing/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/product-design/</loc>
+        <loc>https://trapdoorsec.com/tags/product-design/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/ransomware/</loc>
+        <loc>https://trapdoorsec.com/tags/ransomware/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/secure-by-default/</loc>
+        <loc>https://trapdoorsec.com/tags/secure-by-default/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/tags/walkthrough/</loc>
+        <loc>https://trapdoorsec.com/tags/walkthrough/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/walkthrough/</loc>
+        <loc>https://trapdoorsec.com/walkthrough/</loc>
     </url>
     <url>
-        <loc>https://reverse.codes/walkthrough/code-part-2/</loc>
+        <loc>https://trapdoorsec.com/walkthrough/code-part-2/</loc>
         <lastmod>2025-11-22</lastmod>
     </url>
     <url>
-        <loc>https://reverse.codes/walkthrough/page/1/</loc>
+        <loc>https://trapdoorsec.com/walkthrough/page/1/</loc>
     </url>
 </urlset>
