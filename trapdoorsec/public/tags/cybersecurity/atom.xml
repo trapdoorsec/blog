@@ -15,8 +15,17 @@
     <post_listing_date>date</post_listing_date>
     <link href="https://trapdoorsec.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-11-22T00:00:00+00:00</updated>
+    <updated>2025-11-27T00:00:00+00:00</updated>
     <id>https://trapdoorsec.com/tags/cybersecurity/atom.xml</id><entry xml:lang="en">
+        <title>OWASP Top Ten - 20 years of Application Security</title>
+        <published>2025-11-27T00:00:00+00:00</published>
+        <updated>2025-11-27T00:00:00+00:00</updated>
+        <author>
+            <name>seska</name>
+        </author>
+        <link rel="alternate" href="https://trapdoorsec.com/blog/20-years-of-appsec/" type="text/html"/>
+        <id>https://trapdoorsec.com/blog/20-years-of-appsec/</id>
+        </entry><entry xml:lang="en">
         <title>HTB Walkthrough: CodePartTwo</title>
         <published>2025-11-22T00:00:00+00:00</published>
         <updated>2025-11-22T00:00:00+00:00</updated>

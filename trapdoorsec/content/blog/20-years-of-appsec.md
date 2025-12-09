@@ -11,7 +11,7 @@ Looking at the OWASP Top 10 2025 Release Candidate recently made me feel... old.
 
 To paint the picture for those who may not recall 2004: We had just landed the rovers on Mars, Usher & Maroon 5 were a permanent fixture on the US charts, the dot-com bubble hangover was lifting, the memory of 9-11 was fresh in peoples minds and we had the global conflicts to show for it.
 
-In cybersecurity, we were witnessing a shift. That January, the MyDoom mass emailer worm caused approximately $38 billion in damage globally - and variants would be seen in the wild for nearly five years. Symantec reported[2] a 366% increase in phishing and predicted that it would continue to rise - and they were right. Significantly, they also spotted that well over 40% of vulnerabilities documented between July 1 and Dec 31 of 2004 were web application vulnerabilities, an increase of 39% over the previous 6 months. This was a disturbing trend given we were betting the farm
+In cybersecurity, we were witnessing a shift. That January, the MyDoom mass emailer worm caused approximately $38 billion in damage globally - and variants would be seen in the wild for nearly five years. Symantec reported[2] a 366% increase in phishing and predicted that it would continue to rise - and they were right. Significantly, they also spotted that well over 40% of vulnerabilities documented between July 1 and Dec 31 of 2004 were web application vulnerabilities, an increase of 39% over the previous 6 months. This was a disturbing trend given we were betting the farm on web applications.
 
 This was the backdrop when OWASP released their Top 10 Web Application Security Risks, version 2. It was meant to be a snapshot of the most critical vulnerabilities we faced.
 

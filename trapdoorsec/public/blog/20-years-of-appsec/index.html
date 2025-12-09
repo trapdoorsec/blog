@@ -1,0 +1,466 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https://trapdoorsec.com">
+
+    
+    <title>{TRAPDOOЯ SECURITY} • OWASP Top Ten - 20 years of Application Security</title>
+
+    
+    
+        <link rel="icon" type="image/png" href="https://trapdoorsec.com/img/favicon.png"/>
+    
+    
+
+    
+    
+        
+            
+            
+                
+                    <link rel="alternate" type="application/atom+xml" title="{TRAPDOOЯ SECURITY} - Atom Feed" href="https://trapdoorsec.com/atom.xml">
+                
+            
+                
+                    <link rel="alternate" type="application/rss+xml" title="{TRAPDOOЯ SECURITY} - RSS Feed" href="https://trapdoorsec.com/rss.xml">
+                
+            
+        
+    
+
+    
+    
+    
+        <link rel="stylesheet" href="https://trapdoorsec.com/inter_subset_en.css?h=1c67665626de2132e2ee">
+    
+
+    
+        <link rel="stylesheet" href="https://trapdoorsec.com/main.css?h=c392ef5add34b44d2110" />
+        <link rel="stylesheet" href="https://trapdoorsec.com/css/fontawesome.css?h=1e22547751129dc2f450" />
+        <link rel="stylesheet" href="https://trapdoorsec.com/css/brands.css?h=a58f5443adb1bc4a4d9e" />
+        <link rel="stylesheet" href="https://trapdoorsec.com/css/solid.css?h=17084772f1da6ca4ab4f" />
+
+    <meta name="color-scheme" content="light dark" />
+        <meta name="description" content="" />
+        <meta property="og:description" content="" />
+
+    
+        <meta name="robots" content="index, nofollow" />
+    
+
+    <meta property="og:title" content="OWASP Top Ten - 20 years of Application Security" />
+    <meta property="og:type" content="article" />
+
+    
+
+    <meta property="og:locale" content="en_GB" />
+
+    <meta property="og:url" content="https:&#x2F;&#x2F;trapdoorsec.com&#x2F;blog&#x2F;20-years-of-appsec&#x2F;" /><meta property="og:site_name" content="{TRAPDOOЯ SECURITY}"><meta http-equiv="Content-Security-Policy"
+content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#x27; https:&#x2F;&#x2F;* data:;media-src &#x27;self&#x27;;style-src &#x27;self&#x27;;frame-src player.vimeo.com https:&#x2F;&#x2F;www.youtube-nocookie.com;connect-src 'self';script-src 'self' 'self'">
+
+        <noscript><link rel="stylesheet" href="https://trapdoorsec.com/no_js.css"/></noscript>
+        <script type="text/javascript" src="https://trapdoorsec.com/js/initializeTheme.min.js"></script>
+        <script defer src="https://trapdoorsec.com/js/themeSwitcher.min.js"></script>
+        <script defer src="https://trapdoorsec.com/js/searchElasticlunr.min.js?h=2b079061a58de7ec7f35"></script>
+
+        </head>
+
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a class="home-title" href=https://trapdoorsec.com>{TRAPDOOЯ SECURITY}</a>
+        </div>
+            <div class="nav-navs">
+                <ul>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://trapdoorsec.com/blog/">
+                                blog
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://trapdoorsec.com/archive/">
+                                archive
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://trapdoorsec.com/tags/">
+                                tags
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://trapdoorsec.com/project/">
+                                projects
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://trapdoorsec.com/walkthrough/">
+                                walkthroughs
+                                </a>
+                            </li>
+                        <li class="js">
+                        <div role="button" tabindex="0" id="search-button" class="search-icon interactive-icon" title="Click or press $SHORTCUT to open search" aria-label="Click or press $SHORTCUT to open search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                            </svg>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/atom.xml"><i class="fa-solid fa-rss"></i></a>
+                    </li>
+                    
+                    
+
+                    <li class="theme-switcher-wrapper js"><div
+        title="Toggle dark&#x2F;light mode"
+        class="theme-switcher"
+        tabindex="0"
+        role="button"
+        aria-label="Toggle dark mode"
+        aria-pressed="false">
+    </div><div
+        title="Reset mode to default"
+        class="theme-resetter"
+        tabindex="0"
+        role="button"
+        aria-hidden="true"
+        aria-label="Reset mode to default">
+    </div>
+
+</li>
+</ul>
+            </div>
+        
+    </nav>
+</header>
+
+    <div class="content">
+
+        
+        
+
+
+
+
+<main>
+    <article>
+        <h1 class="article-title">
+            OWASP Top Ten - 20 years of Application Security
+        </h1>
+
+        <ul class="meta"><li>27th Nov 2025</li>&nbsp;•&nbsp;<li title="2617 words">14 min read</li>&nbsp;•&nbsp;<li>Tags:&nbsp;</li><li><a href=https://trapdoorsec.com/tags/cybersecurity/>cybersecurity</a>,&nbsp;</li><li><a href=https://trapdoorsec.com/tags/appsec/>Appsec</a>,&nbsp;</li><li><a href=https://trapdoorsec.com/tags/history/>history</a>,&nbsp;</li><li><a href=https://trapdoorsec.com/tags/thot-leaderizing/>thot leaderizing</a></li>
+        </ul>
+
+        
+
+        
+        
+
+        <section class="body">
+            
+            
+            <h1 id="20-years-of-application-security">20 Years of Application Security</h1>
+<p>Looking at the OWASP Top 10 2025 Release Candidate recently made me feel... old. Not the "I'm getting grey beard hair" kind of old, more like the "I remember when this list first came out", kind of old. Ok maybe a little with the grey hair.</p>
+<p>To paint the picture for those who may not recall 2004: We had just landed the rovers on Mars, Usher &amp; Maroon 5 were a permanent fixture on the US charts, the dot-com bubble hangover was lifting, the memory of 9-11 was fresh in peoples minds and we had the global conflicts to show for it.</p>
+<p>In cybersecurity, we were witnessing a shift. That January, the MyDoom mass emailer worm caused approximately $38 billion in damage globally - and variants would be seen in the wild for nearly five years. Symantec reported[2] a 366% increase in phishing and predicted that it would continue to rise - and they were right. Significantly, they also spotted that well over 40% of vulnerabilities documented between July 1 and Dec 31 of 2004 were web application vulnerabilities, an increase of 39% over the previous 6 months. This was a disturbing trend given we were betting the farm on web applications.</p>
+<p>This was the backdrop when OWASP released their Top 10 Web Application Security Risks, version 2. It was meant to be a snapshot of the most critical vulnerabilities we faced.</p>
+<hr />
+<h2 id="whats-changed-since-then">Whats changed since then?</h2>
+<p>Fast forward to today and the trends in cybersecurity sound very different yet feel vaguely familiar:</p>
+<ul>
+<li>The concept of phishing - fooling people into clicking on a malicous link via email - has expanded to target the supply chain and other vectors: smishing, vishing, domain squatting, poison packages on npm, malicious browser in browser fakery etc. It gone from spray and pray to poison the well.</li>
+<li>AI powered social engineering augments the efforts of those executing the above attacks - its now possible to fake a voice or even video feed.</li>
+<li>Desktop viruses of old have given way to cloud misconfigurations</li>
+<li>Those script kids of 2004 have levelled up and become randomware-as-a-service operators, further lowering the barrier to entry for new miscreants to play dirty</li>
+</ul>
+<p>And finally, web apps have only increased their importance, with API and microservices, alongside OAuth and OIDC encouraging machine integration over the internet.</p>
+<h3 id="owasps-top-ten-over-time">OWASPs Top Ten over time</h3>
+<p>For the unintiated, this awesome community effort strives to collate quality data about the nature of web application cybersecurity attacks and publish them to web developers worldwide for free. I highly recommend being aware of its contents at all times if you're in the business of web application development in any capacity.</p>
+<p>When we compare how the OWASP Top Ten has evolved it provides us an interesting window into not only how attacks have evolved, but how we've responded.</p>
+<p><img src="/img/owasp-compare.png" alt="" />
+<em>source: my own diagram in whimsical, derived from historical OWASP content and the latest version 8 RC1</em></p>
+<h3 id="there-is-an-i-and-a-in-cia-who-knew">There is an "I" and "A" in "CIA"? Who knew?</h3>
+<p>For decades, developers treated Integrity and Availability as "operations problems" - write the code, throw it over the fence, let ops deal with the logs and uptime. That DevOps-shaped hole in our security posture is exactly what we're still trying to fill with CI/CD.</p>
+<p>Something shifted around 2017. OWASP added "Insufficient Logging &amp; Monitoring" to the Top 10, essentially telling developers that 'your job doesn't end when the code compiles'. Good logs are a love letter to your support teams and incident responders. Design observability as a feature, not an afterthought.</p>
+<p>By 2021, this evolved further with "Software and Data Integrity Failures" entering at #8. Now we're not just asking "can you detect when you're breached?" but "can you prove your build pipeline hasn't been compromised?"</p>
+<blockquote>
+<p>An insecure CI/CD pipeline can introduce the potential for unauthorized access, malicious code, or system compromise.
+— <em>OWASP Top 10 2021, A08: Software and Data Integrity Failures</em></p>
+</blockquote>
+<p>In 2025 we're being much more prescriptive: use integrity checks for artifacts, please!</p>
+<blockquote>
+<p>An insecure CI/CD pipeline without consuming and providing software integrity checks can introduce the potential for unauthorized access, insecure or malicious code, or system compromise.
+— <em>OWASP Top 10 2025RC1, A08: Software and Data Integrity Failures</em></p>
+</blockquote>
+<p>Translation: Supply chain security isn't optional anymore. If you can't verify what went into your build, you can't trust what came out of it.</p>
+<p>The pattern: We spent 20 years perfecting Confidentiality (encryption, access control). We're finally realizing that data you can't trust or systems you can't observe are just as dangerous as data you can't protect.</p>
+<h3 id="buffer-overflows-have-operating-system-level-mitigations-now">Buffer overflows have operating system level mitigations now</h3>
+<p>Buffer overflows (aka BOFs), once the bain of the C/C++ programmer, were a significant issue, mainly due to the duopoly that was Apache and IIS web servers in the wild. This kind of attack would be a critical remote code execution issue - many inexperienced web server admins would also run apache or IIS with a high level of privilege out of laziness and lack of awareness.</p>
+<p>Today, not only are more webservers likely to run managed code (i.e. safe from buffer overflows by design), operating systems have stack protections that can randomize memory layout (ASLR), dynamic execution prevention and the like, making those BOFs much header to take advantage of should they exist.</p>
+<h3 id="supply-chain-attacks-emerged">Supply chain attacks emerged</h3>
+<p>We built websites very differently too, in 2004 the concept of <code>npm install leftpad</code> simply didn't exist. Sharing code happened via blogs and dedicated code sharing sites, which in theory could have been a vector, but the reality is that they weren't used in the kind of capacity as a package would be leveraged in 2025.</p>
+<p>Today there are over 400k npm packages alone. This makes for a juicy target. In 2019 we all learned that a mere 20 compromised package maintainers on NPM could potentially infect over 50% of the entire ecosystem practically overnight - making for a very juicy target. [5]</p>
+<p>This trend continues with the discovery of developer targeting malware like <a href="https://www.bleepingcomputer.com/news/security/self-spreading-glassworm-malware-hits-openvsx-vs-code-registries/">glassworm</a> via marketplaces for our text editors, of all things. Notably, glassworm channels the bad old days of MyDoom's wormable nature.</p>
+<h3 id="ai-obviously">AI, obviously</h3>
+<p>You might be surprised that there is nothing related to AI or LLM's in the OWASP Top 10. Well, good news!</p>
+<p>Because its such a unique space, the OWASP organization has given it a Top Ten all it's own: https://genai.owasp.org/llm-top-10/ and you will note that its number one issue is... you guessed it ... prompt injection!</p>
+<h2 id="the-uncomfortable-constants">The uncomfortable constants</h2>
+<p>What's stayed the same? In 2004, 70% of vulnerabilities were classified as easily exploitable, and 97% were considered moderately or highly severe prwire. [2]</p>
+<p>In 2025? The numbers are actually worse. Roughly 38% of reported vulnerabilities in 2025 are rated High or Critical severity (CVSS ≥7), Early 2025 actually saw a spike in Critical CVSS 9+ vulns compared to prior years.[3]</p>
+<p>While in 2024, 42% of analyzed vulnerabilities had publicly available proof-of-concept exploits, significantly reducing the technical barrier for cybercriminals.[4]</p>
+<p>At least by this yardstick, in 20 years we have little to show for our attempts at securing technology. We've definitely gotten better at distributing the same problems across more complex infrastructure though.</p>
+<h2 id="access-controls-still-broken">Access controls - still broken</h2>
+<p>Broken access control is #1 on the OWASP Top 10 for a reason. As an industry, the economics of web development forced us to tackle the phishing problem first - identity and authentication (AuthN) get the budget and attention. Passkeys might finally kill credential theft. Cool.
+But authentication is the easy problem. Authorization (AuthZ) is where we keep failing.
+The reality? All the YubiKeys and passkeys in the world won't save you if a new user can access your admin panel by tweaking a role in their JWT.
+If anyone can view customer data by incrementing an ID in the API call then its all for naught.</p>
+<p>Perhaps, we're close to getting "who are you?" right, but we still can't consistently answer "what are you allowed to do?".</p>
+<h2 id="injection-still-works">Injection still works :/</h2>
+<p>What's fascinating about injection vulnerabilities is that we keep making this mistake. Just as we've wrapped our heads around the ramifications of a given query technology, we invent a new one with a whole new set of injection primitives to worry about:</p>
+<ul>
+<li>2004 - SQL databases were the norm → SQLi was rampant</li>
+<li>2010 - XML-RPC was common → XXE attacks emerged</li>
+<li>2015 - NoSQL databases became mainstream → NoSQL injection appeared</li>
+<li>2020 - GraphQL was everywhere → We stacked NoSQL injection with GraphQL-specific query manipulation</li>
+<li>2025 - LLMs are in production → Prompt injection, RAG poisoning, and indirect prompt injection are the new frontier</li>
+</ul>
+<p>The underlying problem never changed: we're still concatenating untrusted input into interpreters. We just keep inventing new interpreters. In 2004, it was <code>"SELECT * FROM users WHERE id=" + userInput</code>.
+In 2025, it's <code>f"Answer this question using the following context: {userInput}"</code>. Same vulnerability. Different syntax. We learned to parameterize SQL queries, but forgot the lesson when we moved to NoSQL, GraphQL, and now AI prompts.</p>
+<hr />
+<h1 id="conclusion-what-does-this-mean-beyond-2025">Conclusion: What Does This Mean Beyond 2025?</h1>
+<p>Twenty years of OWASP Top 10 data tells us something uncomfortable: <strong>we're not getting better at the fundamentals.</strong> We're getting better at building complex systems that distribute the same old vulnerabilities across more layers.</p>
+<p>Will AI in the form of LLM based tools help us? That remains to be seen, however I remain sceptical of this, given that broken access control is still at the top. BAC issues stem from a lack of understanding or testing of the business rules unique to the application being built - that is to say, you can't prompt for what you don't know to ask for in the first place, and the LLM won't inherently detect every single RBAC rule your organization has come up with, at least not unless the LLM has direct access to that information - which seems unlikely to me. I think this is why humans will still be involved heavily in creating software well into the future.</p>
+<h2 id="for-defenders">For Defenders</h2>
+<p>The good news is that the appsec playbooks from 2004 largely still work. SQL injection prevention, access control validation, input sanitization—these aren't outdated techniques. They're eternal truths we keep forgetting.</p>
+<p>The challenge is you now need to apply those fundamentals across:</p>
+<ul>
+<li>50 microservices</li>
+<li>400 npm dependencies</li>
+<li>12 cloud services</li>
+<li>AI prompts that look like natural language but behave like SQL queries</li>
+</ul>
+<h3 id="actionable-advice">Actionable advice</h3>
+<ul>
+<li><strong>Shift left, but verify right:</strong> DevSecOps is great, but runtime monitoring caught SolarWinds, CodeCov, and dozens of supply chain attacks that passed all the CI checks</li>
+<li><strong>Assume compromise in your dependencies:</strong> Pin versions, use SBOMs, monitor for behavioral changes</li>
+<li><strong>Log like someone's life depends on it:</strong> Because in healthcare, finance, and critical infrastructure, it actually might.</li>
+</ul>
+<h2 id="for-developers">For Developers</h2>
+<p>You've inherited 20 years of technical debt disguised as "best practices." From one of the old guard - I am sorry.</p>
+<p>The uncomfortable truth, that npm package you installed? You're trusting 79 third-party packages and 39 maintainers on average. That GraphQL endpoint? It's just SQL injection with extra steps. That LLM feature? It's user input concatenation all over again.</p>
+<h3 id="first-principles-still-matter">First Principles still matter</h3>
+<ul>
+<li><strong>Understand, don't just use:</strong> Frameworks protect you until they don't. Know why parameterized queries work, not just how to use an ORM</li>
+<li><strong>Treat AuthZ like AuthN:</strong> You wouldn't skip password validation. Stop skipping resource ownership checks</li>
+<li><strong>Your code will be attacked:</strong> Design with that assumption. Write logs that help future-you during an incident at 3 AM</li>
+<li><strong>Supply chain hygiene:</strong> Review your dependencies like you review your own code. That leftpad incident wasn't a fluke—it was a warning</li>
+</ul>
+<p><strong>The mantra:</strong> If you're concatenating user input into <em>anything</em> that interprets it—SQL, NoSQL, GraphQL, shell commands, prompts—you're probably doing injection wrong.</p>
+<h2 id="for-leadership">For Leadership</h2>
+<p>Here's what 20 years of data actually tells you:</p>
+<p><strong>1. Security isn't getting easier</strong></p>
+<p>You can't "buy security" - never could. That SAST tool, WAF, or SIEM? They're necessary, but insufficient. Security is about your people:</p>
+<ul>
+<li>Developer training (they're shipping the vulns)</li>
+<li>Architecture decisions (microservices = more attack surface)</li>
+<li>Supply chain verification (your code is 5% of your application)</li>
+<li>Incident response and threat hunting capabilities (you will be breached, but can you detect it?)</li>
+</ul>
+<p><strong>2. The fundamentals haven't changed, but the economics have</strong></p>
+<p>In 2004, a breach meant some bad press. In 2025, it means:</p>
+<ul>
+<li>GDPR/DORA/CCPA/HIPAA fines (4% of global revenue)</li>
+<li>Class action lawsuits</li>
+<li>Ransomware payments</li>
+<li>Supply chain liability (you breached your customers too)</li>
+<li>Millions wiped off stock prices overnight</li>
+</ul>
+<p>The ROI on basic security hygiene has never been higher.</p>
+<p><strong>3. Your developers are your security team (whether you like it or not)</strong></p>
+<p>Every line of code is a security decision. Every dependency is a trust decision. Every API endpoint is an attack vector. You can hire all the security engineers you want, but if your 50 developers ship 1,000 commits per week, security-by-review doesn't scale.</p>
+<p><strong>Investment priorities:</strong></p>
+<ul>
+<li><strong>Training:</strong> Not compliance checkbox training. Real, practical secure coding for your stack</li>
+<li><strong>Tooling:</strong> SAST/DAST/SCA that developers actually use (not just buy)</li>
+<li><strong>Culture:</strong> Making security a feature requirement, not a post-release patch</li>
+<li><strong>Observability:</strong> You can't defend what you can't see. Log aggregation, SIEM, and actual human analysis</li>
+</ul>
+<h2 id="call-to-action-how-does-your-application-stack-up">Call to Action: How Does Your Application Stack Up?</h2>
+<p>Here's your mission if you choose to accept it.</p>
+<ol>
+<li><strong>Take 30 minutes:</strong> Walk through the <a href="https://owasp.org/Top10/">OWASP Top 10 2025 RC1</a> and honestly assess which apply to your application</li>
+<li><strong>Check your dependencies:</strong> Run <code>npm audit</code> or equivalent. How many HIGH/CRITICAL vulns are you shipping?</li>
+<li><strong>Test your logging:</strong> Simulate an attack. Can you detect it? Can you trace it? Can you respond to it?</li>
+<li><strong>Review your CI/CD:</strong> Can you prove what went into your last build? Do you have integrity checks?</li>
+<li><strong>Audit one critical endpoint:</strong> Pick your most sensitive API. Check for:
+<ul>
+<li>Broken access control (can user A access user B's data?)</li>
+<li>Injection vectors (are you sanitizing/parameterizing inputs?)</li>
+<li>Logging (would you know if this endpoint was being abused?)</li>
+</ul>
+</li>
+</ol>
+<p><strong>Then ask yourself:</strong> If this application were breached tomorrow, would we:</p>
+<ul>
+<li>Know about it within hours (not months)?</li>
+<li>Understand how they got in?</li>
+<li>Be able to prove what data was accessed?</li>
+<li>Have a response plan that doesn't start with "panic"?</li>
+</ul>
+<p>If you answered "no" to any of those, start with the OWASP Top 10. It's been telling us the same story for 20 years.</p>
+<h2 id="a-final-thought">A Final Thought</h2>
+<p>The OWASP Top 10 isn't a prediction of the future. It's a reflection of our past.</p>
+<p>Buffer overflows dropped off not because we got smarter, but because we moved to languages that wouldn't let us make that mistake. SQL injection is still #3 not because it's hard to prevent, but because we keep forgetting to prevent it.</p>
+<p><strong>That's up to us.</strong></p>
+<hr />
+<p><em>Thanks for reading. If you found this useful, consider sharing it with your team. And if you're working on securing applications, you're not alone—the OWASP community is there to help. Check out <a href="https://owasp.org">https://owasp.org</a> for resources, tools, and that Top 10 list we've been talking about.</em></p>
+<p><em>Stay safe out there. And for the love of all that is holy, <strong>parameterize your queries.</strong></em></p>
+<p>===================</p>
+<p>References:</p>
+<ul>
+<li><a href="https://www.okta.com/identity-101/mydoom/">1 - MyDoom History</a></li>
+<li><a href="https://prwire.com.au/pr/4412/symantec-internet-security-threat-report-highlights-rise-in-threats-to-confidential-information">2 - Symantec threat report for 2004</a></li>
+<li><a href="https://deepstrike.io/blog/vulnerability-statistics-2025">3 - Deepstrike Vulnerabilities Statistics 2025: Record CVEs, Zero-Days &amp; Exploits</a></li>
+<li><a href="https://content.blackkite.com/ebook/2025-supply-chain-vulnerability-report/trends-and-statistics">4 - Blackite Vulnerability Trends and Statistics</a></li>
+<li><a href="https://www.zdnet.com/article/hacking-20-high-profile-dev-accounts-could-compromise-half-of-the-npm-ecosystem/">5 - ZDnet article</a></li>
+</ul>
+
+        </section>
+
+        
+        
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+
+        
+        
+
+        
+        
+
+    </article>
+</main>
+
+
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://trapdoorsec.com/js/copyCodeToClipboard.min.js"></script>
+    </div>
+    <footer>
+    <section>
+        <nav class="socials nav-navs">
+                <ul>
+                    
+                    
+                    
+                    <li>
+                        <a class="nav-links no-hover-padding social" rel=""  href=https://trapdoorsec.com/atom.xml>
+                        <img alt="feed" title="feed" src="https://trapdoorsec.com/social_icons/rss.svg">
+                        </a>
+                    </li><li class="js"><a class="nav-links no-hover-padding social" href="#" data-encoded-email="c2Vza2E0NTFAcG0ubWU="><img alt="email" title="email" src="https://trapdoorsec.com/social_icons/email.svg">
+                            </a>
+                        </li>
+                </ul>
+            
+        </nav>
+
+        
+        <nav class="nav-navs">
+        </nav>
+
+        <div class="credits">
+            <small>
+                
+
+                
+                Powered by
+                <a rel=""  href="https://www.getzola.org">Zola</a>
+                &amp;
+                <a rel=""  href="https://github.com/welpo/tabi">tabi</a>
+
+                •
+                    <a rel=""  href="https:&#x2F;&#x2F;github.com&#x2F;seska451&#x2F;blog">
+                        Site source
+                    </a><!--                <a href='https://ko-fi.com/R6R55A5NH' target='_blank'><img height='18' style='border:0px;height:18px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>-->
+            </small>
+        </div>
+    </section>
+
+    <script src="https://trapdoorsec.com/js/decodeMail.min.js" async></script><div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <h1 id="modalTitle" class="visually-hidden">Search</h1>
+    <div id="modal-content">
+        <div id="searchBar">
+            <div class="search-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+            </div>
+            <input id="searchInput" role="combobox" autocomplete="off" spellcheck="false" aria-expanded="false" aria-controls="results-container" placeholder="Search…"/>
+            <div id="clear-search" class="close-icon interactive-icon" tabindex="0" role="button" title="Clear search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="results-container">
+            <div id="results-info"><span id="zero_results"> No results</span>
+                <span id="one_results"> $NUMBER result</span>
+                <span id="many_results"> $NUMBER results</span><span id="two_results"> $NUMBER results</span>
+                <span id="few_results"> $NUMBER results</span>
+            </div>
+            <div id="results" role="listbox"></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+</body>
+
+</html>
