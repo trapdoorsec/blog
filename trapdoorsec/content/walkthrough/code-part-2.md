@@ -6,7 +6,7 @@ tags = ["cybersecurity", "HTB", "walkthrough", "penetration-testing"]
 [extra]
 toc = true
 protected = true
-retired_date = "2025-12-22"
+retired_date = "2026-12-22"
 password = "09cd485933fb29e34fefb7f5a9ea00d8"
 +++
 
@@ -264,4 +264,4 @@ root@codeparttwo:~# cat root.txt
 # My review: 4 stars
 
 I enjoyed this box as it was simple and somewhat realistic - developer tooling has historically been a problematic area because of the need to run as administrator on workstations, and CI/CD tooling needing to allow remote arbitrary code excetion as a feature. Normally this would be considered a security flaw - not a feature! So the owners of these tools need to be extremely careful about sandboxing the environment that allows untrusted input.
- I didn't give it 5 stars because I think that the scenario is a little contrived and it would be (IMO) more interesting to explore a box that attempted to give this feature to others with some more thought given to the architecture. Given 'code' part one used docker containers (if I recall correctly), this approach seems like a regression rather than an improved architecture.  
+ I didn't give it 5 stars because I think that the scenario is a little contrived and it would be (IMO) more interesting to explore a box that attempted to give this feature to others with some more thought given to the architecture. Given 'code' part one used docker containers (if I recall correctly), this approach seems like a regression rather than an improved architecture.

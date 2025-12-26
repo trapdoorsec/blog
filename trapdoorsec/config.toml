@@ -47,4 +47,4 @@ menu  = [
     { name = "projects", url = "project", trailing_slash = true },
     { name = "walkthroughs", url = "walkthrough", trailing_slash = true }
 ]
-email = "c2Vza2E0NTFAcG0ubWU="
+email = "YWtzZXMwQHBtLm1lCg=="

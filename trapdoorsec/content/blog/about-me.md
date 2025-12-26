@@ -21,13 +21,10 @@ as well read it here anyway.
 
 |                                       |            |                                                                                      |
 |---------------------------------------|:-----------|:-------------------------------------------------------------------------------------|
-| <i class="fa-brands fa-twitter"></i> | Twitter   | [https://x.com/0x7365736B61](https://x.com/akses_0x00)                     |
-| <i class="fa-brands fa-bluesky"></i> | Bluesky   | [https://bsky.app/profile/@trapdoorsec.com](https://bsky.app/profile/@trapdoorsec.com)                    |
-| <i class="fa-brands fa-github"></i>   | Github     | [https://www.github.com/seska451](https://www.github.com/akses0)                   |
+| <i class="fa-brands fa-twitter"></i>  | Twitter    | [https://x.com/akses_0x00](https://x.com/akses_0x00)                                 |
+| <i class="fa-brands fa-bluesky"></i>  | Bluesky    | [https://bsky.app/profile/trapdoorsec.com](https://bsky.app/profile/trapdoorsec.com) |
+| <i class="fa-brands fa-github"></i>   | Github     | [https://www.github.com/akses0](https://www.github.com/akses0)                       |
 | <i class="fa-solid fa-cube"></i>      | Hackthebox | [https://app.hackthebox.com/profile/68877](https://app.hackthebox.com/profile/68877) |
-| <i class="fa-brands fa-youtube"></i>  | YT         | [https://www.youtube.com/@trapdoorsec](https://www.youtube.com/@trapdoorsec)     |
+| <i class="fa-brands fa-youtube"></i>  | YT         | [https://www.youtube.com/@trapdoorsec](https://www.youtube.com/@trapdoorsec)         |
 
-:coffee: If you do happen to find something worth supporting here, I'd really appreciate it! The best way to do this is to
-[donate a coffee](https://ko-fi.com/seska) to let me know to keep at it.
-
-
+If you do happen to find something worthwhile here, I love hearing about that, so feel free to let me know on my socials what worked for you :)
